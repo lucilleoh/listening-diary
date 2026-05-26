@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment — never commit the real one
+.env
+.env.local
+
+# Database (regenerated on first run, contains personal listening data)
+diary.db
+diary.db-shm
+diary.db-wal
+
+# Build output
+dist/
+build/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
