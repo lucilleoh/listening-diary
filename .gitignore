@@ -27,3 +27,6 @@ __MACOSX/
 # Logs
 *.log
 npm-debug.log*
+
+# Zips
+*.zip
