@@ -8,43 +8,56 @@ const PROMPTS = [
   'anything you want to revisit or explore more?',
 ]
 
-export default function NotesEditor({ value, saved, onSave }) {
+export default function NotesEditor({ value, onSave }) {
   const [text, setText] = useState(value ?? '')
-  const [dirty, setDirty] = useState(false)
+  const [status, setStatus] = useState('saved') // 'saved' | 'unsaved' | 'saving'
   const timerRef = useRef(null)
 
-  // Sync incoming value when day changes
+  // Sync incoming value when the day changes
   useEffect(() => {
     setText(value ?? '')
-    setDirty(false)
+    setStatus('saved')
   }, [value])
 
+  async function doSave(body) {
+    clearTimeout(timerRef.current)
+    setStatus('saving')
+    try {
+      await onSave(body)
+      setStatus('saved')
+    } catch {
+      setStatus('unsaved')
+    }
+  }
+
   function handleChange(e) {
-    setText(e.target.value)
-    setDirty(true)
+    const v = e.target.value
+    setText(v)
+    setStatus('unsaved')
     clearTimeout(timerRef.current)
     // autosave after 1.5s of no typing
-    timerRef.current = setTimeout(() => {
-      onSave(e.target.value)
-      setDirty(false)
-    }, 1500)
+    timerRef.current = setTimeout(() => doSave(v), 1500)
   }
 
   function handleBlur() {
-    if (dirty) {
-      clearTimeout(timerRef.current)
-      onSave(text)
-      setDirty(false)
-    }
+    if (status === 'unsaved') doSave(text)
   }
+
+  const statusLabel = { saved: 'saved ✓', unsaved: 'unsaved', saving: 'saving…' }[status]
 
   return (
     <div className="notes-editor">
       <div className="section-header">
-        <div className="section-title">notes & reflection</div>
-        <div className="save-status">
-          {saved && !dirty ? <span className="saved-tag">saved ✓</span> : null}
-          {dirty ? <span className="unsaved-tag">unsaved</span> : null}
+        <div className="section-title">notes &amp; reflection</div>
+        <div className="notes-actions">
+          <span className={`save-status save-status--${status}`}>{statusLabel}</span>
+          <button
+            className="btn-ghost btn-sm"
+            onClick={() => doSave(text)}
+            disabled={status !== 'unsaved'}
+          >
+            save
+          </button>
         </div>
       </div>
 

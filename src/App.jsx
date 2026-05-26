@@ -5,8 +5,8 @@ import DayReport from './components/DayReport'
 import './app.css'
 
 // GEN_MUS 170 — 7-day listening diary
-// Week starts Sunday May 24, 2026 — ADJUST THIS TO YOUR WEEK!
-const WEEK_START = '2026-05-24'
+// Week starts Sunday May 17, 2026
+const WEEK_START = '2026-05-17'
 
 function weekRangeLabel(startStr) {
   const start = parseISO(startStr)

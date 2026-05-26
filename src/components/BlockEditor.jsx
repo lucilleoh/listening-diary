@@ -80,7 +80,7 @@ function TrackRow({ s, state, onClick, onMouseEnter }) {
 
 const PREVIEW_COUNT = 3
 
-function BlockCard({ block, tracks, getRowState, onTrackClick, onTrackHover, onRemove }) {
+function BlockCard({ block, tracks, getRowState, onTrackClick, onTrackHover, onEdit, onRemove }) {
   const [expanded, setExpanded] = useState(false)
   const hex = resolveColor(block.color_key)
   const hasMore = tracks.length > PREVIEW_COUNT
@@ -97,7 +97,12 @@ function BlockCard({ block, tracks, getRowState, onTrackClick, onTrackHover, onR
         </div>
         <div className="block-card__right">
           <span className="block-card__count">{tracks.length} track{tracks.length !== 1 ? 's' : ''}</span>
-          <button className="legend-remove" onClick={onRemove}>×</button>
+          <button className="block-edit" onClick={onEdit} title="edit block">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+          </button>
+          <button className="legend-remove" onClick={onRemove} title="remove block">×</button>
         </div>
       </div>
       <div className="block-card__tracks">
@@ -132,6 +137,7 @@ export default function BlockEditor({ scrobbles, blocks, onSave }) {
   const [colorKey, setColorKey]     = useState('coral')
   const [showModal, setShowModal]   = useState(false)
   const [showPicker, setShowPicker] = useState(false)
+  const [editingBlock, setEditingBlock] = useState(null)
 
   function startSelecting() {
     setSelecting(true); setFirstTs(null); setSecondTs(null); setHoveredTs(null)
@@ -156,21 +162,38 @@ export default function BlockEditor({ scrobbles, blocks, onSave }) {
     }
   }
 
-  function confirmBlock() {
-    const start = Math.min(firstTs, secondTs ?? firstTs)
-    const end   = Math.max(firstTs, secondTs ?? firstTs)
-    const updated = [...blocks, { label: labelInput, color_key: colorKey, start_ts: start, end_ts: end }]
-      .sort((a, b) => a.start_ts - b.start_ts)
-    onSave(updated)
-    setShowModal(false)
+  // Open the modal pre-filled to edit an existing block's label/color
+  function startEditBlock(block) {
+    setEditingBlock(block)
+    setLabelInput(block.label)
+    setColorKey(block.color_key)
     setShowPicker(false)
-    setHoveredTs(null)
+    setShowModal(true)
+  }
+
+  function confirmBlock() {
+    if (editingBlock) {
+      // Update the existing block in place (keeps its time range)
+      const updated = blocks.map(b =>
+        b === editingBlock ? { ...b, label: labelInput, color_key: colorKey } : b
+      )
+      onSave(updated)
+    } else {
+      // Create a brand-new block from the selected range
+      const start = Math.min(firstTs, secondTs ?? firstTs)
+      const end   = Math.max(firstTs, secondTs ?? firstTs)
+      const updated = [...blocks, { label: labelInput, color_key: colorKey, start_ts: start, end_ts: end }]
+        .sort((a, b) => a.start_ts - b.start_ts)
+      onSave(updated)
+    }
+    closeModal()
     cancelSelecting()
   }
 
   function closeModal() {
     setShowModal(false)
     setShowPicker(false)
+    setEditingBlock(null)
     setHoveredTs(null)
   }
 
@@ -217,6 +240,7 @@ export default function BlockEditor({ scrobbles, blocks, onSave }) {
                 getRowState={getRowState}
                 onTrackClick={handleTrackClick}
                 onTrackHover={handleTrackHover}
+                onEdit={() => startEditBlock(seg.block)}
                 onRemove={() => removeBlock(seg.block)}
               />
             )
@@ -251,7 +275,7 @@ export default function BlockEditor({ scrobbles, blocks, onSave }) {
               />
             ) : (
               <>
-                <div className="modal-title">label this block</div>
+                <div className="modal-title">{editingBlock ? 'edit block' : 'label this block'}</div>
                 <select className="modal-select" value={labelInput} onChange={e => setLabelInput(e.target.value)}>
                   {PRESET_LABELS.map(l => <option key={l}>{l}</option>)}
                 </select>
@@ -284,7 +308,9 @@ export default function BlockEditor({ scrobbles, blocks, onSave }) {
                 </div>
                 <div className="modal-actions">
                   <button className="btn-ghost" onClick={closeModal}>cancel</button>
-                  <button className="btn-primary" onClick={confirmBlock}>save block</button>
+                  <button className="btn-primary" onClick={confirmBlock}>
+                    {editingBlock ? 'save changes' : 'save block'}
+                  </button>
                 </div>
               </>
             )}
