@@ -1,92 +1,97 @@
-# listening diary — GEN_MUS 170
+# listening diary (GEN_MUS 170)
 
-A personal listening diary app that pulls your scrobbles, lets you annotate them by activity, and keeps a daily reflection log.
+A personal listening diary app that pulls your scrobbles, lets you annotate them by activity, and keeps a daily reflection log. Built specifically for GEN_MUS 170!
 
-> **Live version:** [listening-diary.vercel.app](https://listening-diary.vercel.app) — a read-only snapshot of my diary week. (See [section 7](#7-publishing-your-diary-online) for how the live site is built and deployed!)
+> **Live version:** [listening-diary.vercel.app](https://listening-diary.vercel.app)—a read-only snapshot of my diary week. 
+> (See [section 6](#6-publishing-online) for how the live site is built and deployed!)
 
-This guide assumes **zero coding experience**. If a step seems obvious to you, skip it. If you've never opened a terminal before, follow along exactly and you'll be fine :]
-
----
-
-## Contents
-
-1. [What you'll need](#1-what-youll-need)
-2. [Getting the project onto your computer](#2-getting-the-project-onto-your-computer)
-3. [Setup](#3-setup)
-4. [Running the app](#4-running-the-app)
-5. [First time only: backfill your history](#5-first-time-only-backfill-your-history)
-6. [Your daily workflow](#6-your-daily-workflow)
-7. [Publishing your diary online](#7-publishing-your-diary-online)
-8. [How "new" detection works](#8-how-new-detection-works)
-9. [Troubleshooting](#9-troubleshooting)
-10. [Project files](#10-project-files)
-11. [Customizing](#11-customizing)
+This guide assumes **zero coding experience**. If a step seems obvious to you, skip it. If you've never opened a terminal before, follow along exactly and you'll be just fine :]
 
 ---
 
-## 1. What you'll need
+## CONTENTS
 
-Four things to set up before the app will run. Take them one at a time.
+0. [What you'll need](#0-what-youll-need)
+1. [Getting started](#1-getting-started)
+2. [Project setup](#2-project-setup)
+3. [Running the app](#3-running-the-app)
+4. [Backfill your history](#4-backfill-your-history)
+5. [Daily workflow](#5-daily-workflow)
+6. [Publishing online](#6-publishing-online)
+7. [How "new" detection works](#7-how-new-detection-works)
+8. [Troubleshooting](#8-troubleshooting)
+9. [Project files](#9-project-files)
+10. [Customizing](#10-customizing)
+
+---
+
+## 0. What you'll need
+
+**Four** things to set up before the app will run: an IDE, Node.js, a Last.fm account, and a Last.fm API key. Take them one at a time.
 
 ### a. A code editor (IDE)
 
 This is the program you'll open the project in. If you don't already have one, download either:
 
-- **Cursor** — https://cursor.com (recommended; it has AI built in)
-- **VS Code** — https://code.visualstudio.com (the classic, also great)
+- **Cursor** — [cursor.com](https://cursor.com) (recommended; it has AI built in)
+- **VS Code** — [code.visualstudio.com](https://code.visualstudio.com) (the classic, also great)
 
-Install it like any other app. Either one works identically for this guide.
+Install it like any other app. Either one works identically for this guide!
 
 ### b. Node.js
 
-Node is what actually runs the app's code on your computer. The app won't work without it.
+Node is what actually runs the app's code on your computer: the app won't work without it.
 
-1. Go to https://nodejs.org
-2. Download the **LTS** version (the big green button on the left — "LTS" means the stable one)
+1. Go to [nodejs.org](https://nodejs.org)
+2. Download the version labeled **LTS** ("LTS" means the stable, recommended one). 
+On the current page, LTS is the *blue* badge (e.g. "v24.x Latest LTS")—**not** the green one, which is the newer "Latest Release." Pick by the word "LTS," not the color.
 3. Run the installer, click through with all the defaults
-4. To confirm it worked: open your editor, open a terminal inside it (see [section 4](#4-running-the-app) for how), type this and press Enter:
+4. To confirm it worked: open your editor, open a terminal inside it (see [section 3](#3-running-the-app) for how) and enter:
+
    ```bash
    node --version
    ```
-   If you see a version number like `v20.11.0`, you're good. If it says "command not found," restart your editor and try again.
+   If you see a version number like `v20.11.0`, you're all set! If you get "command not found," restart your editor and try again.
 
 ### c. A Last.fm account, connected to Spotify
 
-Last.fm is a free service that quietly logs every song you play (this is called "scrobbling"). This app reads that log. You connect it to Spotify so your listening gets tracked automatically.
+Last.fm is a free service that quietly 'scrobbles' or logs every song you play. This app reads that log. You connect it to Spotify so your listening gets tracked automatically.
 
-1. **Make a Last.fm account** at https://www.last.fm/join (free)
-2. **Connect Spotify:** go to https://www.last.fm/settings/applications, find **Spotify**, and click **Connect**. Log into Spotify when prompted and allow access.
-3. That's it — from now on, anything you play on Spotify automatically shows up in your Last.fm history.
+1. **Make an account** @ [last.fm/join](https://www.last.fm/join) (free!)
+2. **Connect Spotify:** go to [last.fm/settings/applications](https://www.last.fm/settings/applications), find **Spotify**, and click **Connect**. Log into Spotify when prompted and allow access.
+3. That's it! From now on, anything you play on Spotify automatically shows up in your Last.fm history.
 
 > **Important:** scrobbling only logs songs you play *after* connecting. For your diary week to have data, Spotify needs to be connected the whole week, and you need to actually listen to music (a track has to play for ~30 seconds / half its length to count). If you connect it today, today is when your data starts.
 
 ### d. A Last.fm API key
 
-This is a password-like code that lets the app read *your* scrobbles. Free and takes a minute.
+This is a password-like code that lets the app read *your* scrobbles. Free and only takes a minute.
 
-1. Go to https://www.last.fm/api/account/create
+1. Go to [last.fm/api/account/create](https://www.last.fm/api/account/create)
 2. Fill in **Application name** (anything works, e.g. `my listening diary`). You can leave the other fields (description, callback URL, homepage) blank.
-3. Submit. The next page shows your **API key** — a long string of letters and numbers. Copy it somewhere safe; you'll paste it in [section 3](#3-setup).
+3. Submit. The next page shows your **API key** — a long string of letters and numbers. Copy it somewhere safe; you'll paste it in [section 2](#2-project-setup).
 
 > Keep this key private. Don't post it anywhere public or share it.
 
 ---
 
-## 2. Getting the project onto your computer
+## 1. Getting started
 
-If you were given a link to the project on GitHub:
+You're reading this on the project's GitHub page [github.com/lucilleoh/listening-diary](https://github.com/lucilleoh/listening-diary/). To get a copy onto your own machine:
 
-1. On the GitHub page, click the green **Code** button → **Download ZIP**
-2. Unzip the downloaded file (double-click it). You'll get a folder called something like `listening-diary`.
-3. In your editor: **File → Open Folder** → select that `listening-diary` folder.
+1. Click the green **Code** button near the top right of the page → **Download ZIP**
+2. Unzip the file (double-click it)—you'll get a folder called `listening-diary`
+3. In your editor: **File → Open Folder** → select that `listening-diary` folder
 
-You should now see the project's files listed in a sidebar on the left.
+You should now see the project's files in a sidebar on the left.
+
+*(Comfortable with git? You can `git clone` the repo instead.)*
 
 ---
 
-## 3. Setup
+## 2. Project setup
 
-All the commands below get typed into the **terminal** inside your editor. If you don't have a terminal open yet, jump to [section 4](#4-running-the-app) to learn how, then come back.
+All the commands below are typed into the **terminal** inside your editor. If you don't have a terminal open yet, jump to [section 3](#3-running-the-app) to learn how, then come back.
 
 ### a. Install dependencies
 
@@ -96,7 +101,7 @@ This downloads all the code libraries the app depends on. Run it once:
 npm install
 ```
 
-It'll churn for a minute and create a `node_modules` folder. That's normal.
+It'll churn for a minute and create a `node_modules` folder. That's normal!
 
 ### b. Add your Last.fm credentials
 
@@ -113,7 +118,7 @@ LASTFM_API_KEY=paste_your_api_key_here
 LASTFM_USERNAME=your_lastfm_username
 ```
 
-- `LASTFM_API_KEY` — the key you copied in [section 1d](#d-a-lastfm-api-key)
+- `LASTFM_API_KEY` — the key you copied in [section 0d](#d-a-lastfm-api-key)
 - `LASTFM_USERNAME` — your Last.fm username (what's in your profile URL, e.g. `lucilleoh`)
 
 Save the file.
@@ -130,7 +135,7 @@ Save the file.
 
 ---
 
-## 4. Running the app
+## 3. Running the app
 
 The app has two parts that run at the same time, so you need **two terminals** open.
 
@@ -158,7 +163,7 @@ You should see the listening diary. Leave both terminals running while you use t
 
 ---
 
-## 5. First time only: backfill your history
+## 4. Backfill your history
 
 By default the app would think *every* song is brand new, because it doesn't know your listening history yet. This one-time step teaches it what you've listened to over the years.
 
@@ -168,28 +173,33 @@ With the backend running (Terminal 1), open a **third** terminal (the first two 
 curl -X POST http://localhost:3001/api/backfill
 ```
 
-It takes a few seconds and prints something like `{"ok":true,"artists":1000,"tracks":1000,...}`. After it finishes, click **↻ sync** on each day in the app so the "new" tags recalculate. You only ever need to do this once.
+It takes a few seconds and prints something like `{"ok":true,"artists":1000,"tracks":1000,...}`. After it finishes, click **↻ sync** on each day in the app so the "new" tags recalculate. **You only ever need to do this once.**
 
 ---
 
-## 6. Your daily workflow
+## 5. Daily workflow
 
-About 5 minutes before bed:
+> **Tip:** sync and label *throughout the day* rather than all at once—especially if you listen to a lot of music like me. Trying to remember exactly what you were doing during each stretch of songs at midnight is often harder than it sounds!
+
+You can do the whole thing in one quick pass, or chip away at it as the day goes. Either way:
 
 1. Open the app (both terminals running)
-2. Click **↻ sync** on today's date in the week strip — this pulls the day's listening from Last.fm
-3. Look over the track list. To label a stretch of songs as an activity: **click the first track**, then **click the last track** in that stretch. A box pops up where you name it (morning routine, lifting, etc.) and pick a color. Use the rainbow swatch for any custom color.
-   - Edit a label later with the **wrench** icon on the block; remove it with the **×**.
-4. (Optional) Click the emoji on a day card to pick a custom one — otherwise it auto-picks based on your top track.
-5. Write your reflection in the notes box. It autosaves as you type, or hit **save** to be sure.
+2. Click **↻ sync** on today's date in the week strip—this pulls the day's listening from Last.fm
+3. Look over the track list. To label a stretch of songs as an activity: **click the first track**, then **click the last track** in that stretch. Name it (morning routine, lifting, etc.) and pick a color for your label. Use the rainbow swatch for any custom color.
+   - You can edit a label later with the **wrench** icon on the block; remove it with the **×**.
+
+4. (Optional) Click the emoji on a day card to pick a custom one—otherwise it auto-picks based on your top track.
+5. Write your reflection in the notes box. It **autosaves as you type**!
 
 ---
 
-## 7. Publishing your diary online
+## 6. Publishing online
 
-> Optional. If you only want to run the diary on your own machine, you can skip this section — everything above is all you need. This explains how the **live version** at the top of this README is built.
+> **Optional.** If you only want to run the diary on your own machine, you can skip this section—everything above is all you need. This explains how the **live version** at the top of this README is built. 
 
-The live site is a **frozen, read-only snapshot** of a diary week. It has no backend and no database — it can't sync, save, or edit. That's on purpose: it's just a viewer anyone can open with a link, while the editable version stays on your computer.
+> **You'll need two extra things for this section:** a free [GitHub account](https://github.com/signup) with your project pushed to a repo, and a way to push code to it. Never used git? The easiest no-terminal option is [GitHub Desktop](https://desktop.github.com)—a point-and-click app that can create the repo and do "commit"/"push" with buttons (it'll even publish your folder for you). The `git` commands below are the alternative if you have git installed.
+
+The live site is a **frozen, read-only snapshot** of a diary week. It has no backend and no database—it can't sync, save, or edit. That's on purpose: it's just a viewer anyone can open with a link, while the editable version stays on your computer.
 
 Here's how it works and how to publish updates.
 
@@ -198,11 +208,11 @@ Here's how it works and how to publish updates.
 - **Locally** (`npm run dev`), the app talks to your live backend, so you can sync and edit as normal.
 - **In the published build**, the app reads a bundled snapshot file (`src/diary-data.json`) instead, and all the edit controls are hidden.
 
-The app figures out which mode it's in automatically (it checks whether it's a production build), so you don't toggle anything — local stays fully editable, the deployed site stays read-only.
+The app figures out which mode it's in automatically (it checks whether it's a production build), so you don't toggle anything—local stays fully editable, the deployed site stays read-only.
 
 ### Step 1 — export a snapshot
 
-Once your diary week is filled in and looking how you want, freeze it into the snapshot file. From a terminal (the backend doesn't need to be running for this — it reads the database directly), run:
+Once your diary week is filled in and looking how you want, freeze it into the snapshot file. From a terminal (the backend doesn't need to be running for this—it reads the database directly), run:
 
 ```bash
 node server/export.js 2026-05-17
@@ -221,7 +231,7 @@ git commit -m "update diary snapshot"
 git push
 ```
 
-> **Heads up on privacy:** `diary-data.json` contains your stats *and your written reflections*, and committing it to a public repo (and deploying it) makes that text publicly viewable to anyone with the link. That's expected for a submitted assignment — just know it's public before you push.
+> **Heads up on privacy:** `diary-data.json` contains your stats *and your written reflections*, and committing it to a public repo (and deploying it) makes that text publicly viewable to anyone with the link. That's expected for a submitted assignment—just know it's public before you push.
 
 ### Step 3 — deploy on Vercel
 
@@ -230,29 +240,29 @@ git push
 - **First time:** sign in with GitHub → **Add New → Project** → import your `listening-diary` repo → it auto-detects Vite, so leave the defaults → **Deploy**. You'll get a URL like `your-project.vercel.app`. No environment variables are needed (the published build reads the JSON, not the Last.fm API).
 - **Every time after:** just `git push`. Vercel automatically rebuilds and redeploys. You only need to re-export (Step 1) if the *data* changed; for code or styling changes, a push is enough.
 
-> Tip: before pushing, you can preview the published version locally with `npm run build` then `npm run preview` — open that with your backend **off** to confirm the read-only snapshot looks right.
+> Tip: before pushing, you can preview the published version locally with `npm run build` then `npm run preview`—open that with your backend **off** to confirm the read-only snapshot looks right.
 
 ---
 
-## 8. How "new" detection works
+## 7. How "new" detection works
 
 When you sync a day, each artist / track / album is checked against a record of the **first date** you ever encountered it. It's flagged `new` only if it's never appeared on an earlier date.
 
 That record gets filled two ways:
 
-1. The **backfill** (section 5) seeds it with your Last.fm top ~1000 artists/tracks/albums, marked as "seen long ago" — so your established favorites never wrongly show as new.
+1. The **backfill** (section 4) seeds it with your Last.fm top ~1000 artists/tracks/albums, marked as "seen long ago"—so your established favorites never wrongly show as new.
 2. **Each sync** adds that day's listening, stamped with the day's date.
 
-So **"new artist" means new to your listening history**, not just new to today — and genuinely-new discoveries still surface correctly even if you re-sync a day multiple times.
+So **"new artist" means new to your listening history**, not just new to today—and genuinely-new discoveries still surface correctly even if you re-sync a day multiple times.
 
 To start fresh, delete the `diary.db` file and re-run the backfill + re-sync.
 
 ---
 
-## 9. Troubleshooting
+## 8. Troubleshooting
 
 **`command not found: node` (or `npm`)**
-Node isn't installed, or the terminal hasn't picked it up yet. Re-check [section 1b](#b-nodejs), then fully quit and reopen your editor.
+Node isn't installed, or the terminal hasn't picked it up yet. Re-check [section 0b](#b-nodejs), then fully quit and reopen your editor.
 
 **`npm install` errors out**
 Make sure you opened the actual project folder (the one containing `package.json`) in your editor, and that you're running the command from that folder.
@@ -265,7 +275,7 @@ Make sure you opened the actual project folder (the one containing `package.json
 Either you didn't listen to music that day, Spotify wasn't connected to Last.fm yet, or the username in `.env` is wrong. Check your history is showing up at `last.fm/user/YOUR_USERNAME`.
 
 **Everything shows as "new"**
-You haven't run the backfill yet — see [section 5](#5-first-time-only-backfill-your-history) — or you ran it but haven't re-synced the days.
+You haven't run the backfill yet—see [section 4](#4-backfill-your-history)—or you ran it but haven't re-synced the days.
 
 **`port already in use` / `EADDRINUSE`**
 An old server is still running from before. Quit it: on Mac/Linux run `lsof -ti:3001 | xargs kill` (for the backend) in a spare terminal, or just restart your computer.
@@ -274,11 +284,11 @@ An old server is still running from before. Quit it: on Mac/Linux run `lsof -ti:
 Make sure the backend (Terminal 1) is actually running first, and that you're running the curl in a *separate* terminal.
 
 **The deployed (Vercel) site is blank or has no data**
-You probably didn't run the export, or `src/diary-data.json` wasn't committed. Run `node server/export.js <your-sunday>`, then `git add -A && git commit && git push`. See [section 7](#7-publishing-your-diary-online).
+You probably didn't run the export, or `src/diary-data.json` wasn't committed. Run `node server/export.js <your-sunday>`, then `git add -A && git commit && git push`. See [section 6](#6-publishing-online).
 
 ---
 
-## 10. Project files
+## 9. Project files
 
 ```
 listening-diary/
@@ -314,9 +324,9 @@ listening-diary/
 
 ---
 
-## 11. Customizing
+## 10. Customizing
 
-You can tweak these by opening the file in your editor and editing the lists near the top — no deep coding required.
+You can tweak the following features by opening the file in your editor and editing the lists near the top—no deep coding required.
 
 **Auto-stickers** — `src/components/WeekStrip.jsx`, the `STICKER_MAP` array. Keywords in a song/artist name map to an emoji. (Only used when you haven't manually picked an emoji for that day.)
 
