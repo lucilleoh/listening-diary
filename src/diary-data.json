@@ -1,0 +1,5135 @@
+{
+  "weekStart": "2026-05-17",
+  "week": [
+    {
+      "date": "2026-05-17",
+      "synced": true,
+      "total_scrobbles": 191,
+      "top_track": "2EM17_KK_A08",
+      "top_track_artist": "鷺巣詩郎",
+      "top_track_count": 31,
+      "top_album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+      "peak_hour_label": "6pm",
+      "new_artists_count": 1,
+      "emoji": "🌻"
+    },
+    {
+      "date": "2026-05-18",
+      "synced": true,
+      "total_scrobbles": 109,
+      "top_track": "2EM17_KK_A08",
+      "top_track_artist": "鷺巣詩郎",
+      "top_track_count": 41,
+      "top_album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+      "peak_hour_label": "10am",
+      "new_artists_count": 0,
+      "emoji": "🌙"
+    },
+    {
+      "date": "2026-05-19",
+      "synced": true,
+      "total_scrobbles": 93,
+      "top_track": "2EM17_KK_A08",
+      "top_track_artist": "鷺巣詩郎",
+      "top_track_count": 41,
+      "top_album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+      "peak_hour_label": "2pm",
+      "new_artists_count": 8,
+      "emoji": "✨"
+    },
+    {
+      "date": "2026-05-20",
+      "synced": true,
+      "total_scrobbles": 113,
+      "top_track": "Paul's Theme",
+      "top_track_artist": "Men I Trust",
+      "top_track_count": 25,
+      "top_album": "Equus Asinus",
+      "peak_hour_label": "1pm",
+      "new_artists_count": 3,
+      "emoji": "🍓"
+    },
+    {
+      "date": "2026-05-21",
+      "synced": true,
+      "total_scrobbles": 42,
+      "top_track": "Lovefool",
+      "top_track_artist": "The Cardigans",
+      "top_track_count": 1,
+      "top_album": "First Band On The Moon (Remastered)",
+      "peak_hour_label": "9am",
+      "new_artists_count": 7,
+      "emoji": null
+    },
+    {
+      "date": "2026-05-22",
+      "synced": true,
+      "total_scrobbles": 22,
+      "top_track": "Sienna",
+      "top_track_artist": "The Marías",
+      "top_track_count": 10,
+      "top_album": "Submarine",
+      "peak_hour_label": "7pm",
+      "new_artists_count": 0,
+      "emoji": "🐚"
+    },
+    {
+      "date": "2026-05-23",
+      "synced": true,
+      "total_scrobbles": 1,
+      "top_track": "Sienna",
+      "top_track_artist": "The Marías",
+      "top_track_count": 1,
+      "top_album": "Submarine",
+      "peak_hour_label": "5pm",
+      "new_artists_count": 0,
+      "emoji": "🌊"
+    }
+  ],
+  "days": {
+    "2026-05-17": {
+      "date": "2026-05-17",
+      "synced": true,
+      "stats": {
+        "total_scrobbles": 191,
+        "unique_tracks": 69,
+        "unique_artists": 40,
+        "unique_albums": 53,
+        "top_track": "2EM17_KK_A08",
+        "top_track_artist": "鷺巣詩郎",
+        "top_track_count": 31,
+        "top_album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+        "top_album_artist": "鷺巣詩郎",
+        "peak_hour": 18,
+        "peak_hour_label": "6pm",
+        "new_artists": [
+          "Electric Youth"
+        ],
+        "new_tracks": [
+          {
+            "track": "Boom Clap",
+            "artist": "Charli xcx"
+          },
+          {
+            "track": "Beggin' On Your Knees (feat. Victoria Justice)",
+            "artist": "Victorious Cast"
+          },
+          {
+            "track": "Xanny Family",
+            "artist": "Future"
+          },
+          {
+            "track": "Blue",
+            "artist": "Kali Uchis"
+          },
+          {
+            "track": "Rito Village (from \"The Legend of Zelda: Breath of the Wild\")",
+            "artist": "TPR"
+          },
+          {
+            "track": "惑星の泪",
+            "artist": "Ichiko Aoba"
+          },
+          {
+            "track": "Castle of sand",
+            "artist": "NUUAMM"
+          },
+          {
+            "track": "ある喫茶",
+            "artist": "Mei Ehara"
+          },
+          {
+            "track": "thirteen",
+            "artist": "Electric Youth"
+          },
+          {
+            "track": "K2-",
+            "artist": "Sawano Hiroyuki"
+          },
+          {
+            "track": "This One's For You (feat. Zara Larsson) (Official Song UEFA EURO 2016)",
+            "artist": "David Guetta"
+          }
+        ],
+        "new_albums": [
+          {
+            "album": "Peaceful Days",
+            "artist": "TPR"
+          },
+          {
+            "album": "Memory Emotion",
+            "artist": "Electric Youth"
+          },
+          {
+            "album": "This One's For You (feat. Zara Larsson) [Official Song UEFA EURO 2016]",
+            "artist": "David Guetta"
+          }
+        ]
+      },
+      "scrobbles": [
+        {
+          "id": 12498,
+          "date": "2026-05-17",
+          "timestamp": 1778994186,
+          "track": "Living Room",
+          "artist": "Not For Radio",
+          "album": "Bloom",
+          "mbid": "1c33e7b0-6951-4246-85c7-cae546659c80",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 10,
+          "last_ts": 1778996510
+        },
+        {
+          "id": 12508,
+          "date": "2026-05-17",
+          "timestamp": 1778997137,
+          "track": "Ache",
+          "artist": "Not For Radio",
+          "album": "Bloom",
+          "mbid": "d86ca498-f13a-45bf-bc74-43258e1c3e18",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1778997137
+        },
+        {
+          "id": 12509,
+          "date": "2026-05-17",
+          "timestamp": 1778997404,
+          "track": "Seabed Eden",
+          "artist": "Ichiko Aoba",
+          "album": "Seabed Eden",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1778997404
+        },
+        {
+          "id": 12510,
+          "date": "2026-05-17",
+          "timestamp": 1778997651,
+          "track": "Seabed Eden - French version",
+          "artist": "Ichiko Aoba",
+          "album": "Seabed Eden (French version)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1778997651
+        },
+        {
+          "id": 12511,
+          "date": "2026-05-17",
+          "timestamp": 1779034568,
+          "track": "Just for Now",
+          "artist": "Imogen Heap",
+          "album": "Speak For Yourself (Deluxe Version)",
+          "mbid": "b375a0d6-911a-3240-8f13-c0dd93252c3e",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779034568
+        },
+        {
+          "id": 12512,
+          "date": "2026-05-17",
+          "timestamp": 1779034764,
+          "track": "Headlock",
+          "artist": "Imogen Heap",
+          "album": "Speak For Yourself (Deluxe Version)",
+          "mbid": "657e0402-4372-4f60-9a6c-5903a4c30cc5",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779034764
+        },
+        {
+          "id": 12513,
+          "date": "2026-05-17",
+          "timestamp": 1779034979,
+          "track": "Hide and Seek",
+          "artist": "Imogen Heap",
+          "album": "Speak For Yourself (Deluxe Version)",
+          "mbid": "04419e1e-3513-4baf-a00c-fdd8d3c5abbd",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779034979
+        },
+        {
+          "id": 12514,
+          "date": "2026-05-17",
+          "timestamp": 1779035248,
+          "track": "Let Go",
+          "artist": "Frou Frou",
+          "album": "Details",
+          "mbid": "15f063c9-e3c5-4a6d-84fb-cb15f52a4ea7",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779035248
+        },
+        {
+          "id": 12515,
+          "date": "2026-05-17",
+          "timestamp": 1779035503,
+          "track": "Breathe In",
+          "artist": "Frou Frou",
+          "album": "Details",
+          "mbid": "d9a9d77f-ca02-442a-818a-b6e5014f58ca",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779035503
+        },
+        {
+          "id": 12516,
+          "date": "2026-05-17",
+          "timestamp": 1779035781,
+          "track": "The Dumbing Down Of Love",
+          "artist": "Frou Frou",
+          "album": "Details",
+          "mbid": "755e65b1-9c8a-4dcf-93fa-9fed96d9200a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779035781
+        },
+        {
+          "id": 12517,
+          "date": "2026-05-17",
+          "timestamp": 1779036069,
+          "track": "Loose Ends",
+          "artist": "Imogen Heap",
+          "album": "Speak For Yourself (Deluxe Version)",
+          "mbid": "1803c9b6-ea1c-39bc-80a7-6cc415255761",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779036069
+        },
+        {
+          "id": 12518,
+          "date": "2026-05-17",
+          "timestamp": 1779036288,
+          "track": "A New Kind Of Love - Demo",
+          "artist": "Frou Frou",
+          "album": "A New Kind of Love (demo)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779036288
+        },
+        {
+          "id": 12519,
+          "date": "2026-05-17",
+          "timestamp": 1779036548,
+          "track": "Have You Got It in You?",
+          "artist": "Imogen Heap",
+          "album": "Speak For Yourself (Deluxe Version)",
+          "mbid": "0e554553-f390-4228-aab0-543eb6f67937",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779036548
+        },
+        {
+          "id": 12520,
+          "date": "2026-05-17",
+          "timestamp": 1779036797,
+          "track": "The Walk",
+          "artist": "Imogen Heap",
+          "album": "Speak For Yourself (Deluxe Version)",
+          "mbid": "2c57e6c2-b758-45a1-aba4-f15d8663e3e4",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779036797
+        },
+        {
+          "id": 12521,
+          "date": "2026-05-17",
+          "timestamp": 1779037112,
+          "track": "Hear Me Out",
+          "artist": "Frou Frou",
+          "album": "Details",
+          "mbid": "c53ba095-1168-47a5-8b8c-f28873e9bace",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779037112
+        },
+        {
+          "id": 12522,
+          "date": "2026-05-17",
+          "timestamp": 1779037401,
+          "track": "Lose My Cool,",
+          "artist": "Kali Uchis",
+          "album": "Sincerely,",
+          "mbid": "8754268d-55a3-418c-a8ae-a3468d4b6644",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779037401
+        },
+        {
+          "id": 12523,
+          "date": "2026-05-17",
+          "timestamp": 1779037857,
+          "track": "It's Just Us",
+          "artist": "Kali Uchis",
+          "album": "Sincerely,",
+          "mbid": "f6c1cba9-7f35-49aa-a1df-156813e07943",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 6,
+          "last_ts": 1779038758
+        },
+        {
+          "id": 12529,
+          "date": "2026-05-17",
+          "timestamp": 1779039838,
+          "track": "Boom Clap",
+          "artist": "Charli xcx",
+          "album": "SUCKER",
+          "mbid": "67a7aa1c-8551-4146-865e-4ca91f2b8d84",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 4,
+          "last_ts": 1779040348
+        },
+        {
+          "id": 12533,
+          "date": "2026-05-17",
+          "timestamp": 1779040620,
+          "track": "Beggin' On Your Knees (feat. Victoria Justice)",
+          "artist": "Victorious Cast",
+          "album": "Victorious: Music From The Hit TV Show (feat. Victoria Justice)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779040620
+        },
+        {
+          "id": 12534,
+          "date": "2026-05-17",
+          "timestamp": 1779040836,
+          "track": "Xanny Family",
+          "artist": "Future",
+          "album": "EVOL",
+          "mbid": "1de6eb45-4c3b-4fe7-80b8-47712e76aa7b",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779040836
+        },
+        {
+          "id": 12535,
+          "date": "2026-05-17",
+          "timestamp": 1779041020,
+          "track": "Asleep Among Endives",
+          "artist": "Ichiko Aoba",
+          "album": "Asleep Among Endives",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779041020
+        },
+        {
+          "id": 12536,
+          "date": "2026-05-17",
+          "timestamp": 1779041410,
+          "track": "peace u need",
+          "artist": "Fred again..",
+          "album": "ten days",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779041410
+        },
+        {
+          "id": 12537,
+          "date": "2026-05-17",
+          "timestamp": 1779041745,
+          "track": "Twilight",
+          "artist": "bôa",
+          "album": "Twilight",
+          "mbid": "2511673f-07ba-317a-b3a8-273c26da7f03",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779041973
+        },
+        {
+          "id": 12539,
+          "date": "2026-05-17",
+          "timestamp": 1779042301,
+          "track": "Seabed Eden",
+          "artist": "Ichiko Aoba",
+          "album": "Seabed Eden",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 11,
+          "last_ts": 1779044555
+        },
+        {
+          "id": 12550,
+          "date": "2026-05-17",
+          "timestamp": 1779044797,
+          "track": "Witches",
+          "artist": "Alice Phoebe Lou",
+          "album": "Witches",
+          "mbid": "61fc6912-0785-402e-bfd8-388f28157f62",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779044797
+        },
+        {
+          "id": 12551,
+          "date": "2026-05-17",
+          "timestamp": 1779045001,
+          "track": "Open My Door",
+          "artist": "Alice Phoebe Lou",
+          "album": "Shelter",
+          "mbid": "ab4acfd3-7028-495f-a448-56ec4a6db174",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 6,
+          "last_ts": 1779045768
+        },
+        {
+          "id": 12557,
+          "date": "2026-05-17",
+          "timestamp": 1779045938,
+          "track": "Moon Strut (Intro)",
+          "artist": "Nujabes",
+          "album": "FIRST COLLECTION",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779045938
+        },
+        {
+          "id": 12558,
+          "date": "2026-05-17",
+          "timestamp": 1779046053,
+          "track": "Peaceland",
+          "artist": "Nujabes",
+          "album": "Metaphorical Music",
+          "mbid": "82c8175e-d37a-39f2-9d2f-a6fa6fcce26d",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779046053
+        },
+        {
+          "id": 12559,
+          "date": "2026-05-17",
+          "timestamp": 1779046552,
+          "track": "Too High",
+          "artist": "Stevie Wonder",
+          "album": "Innervisions",
+          "mbid": "075116fe-fcdf-4f92-bad2-319dc0059f40",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779046552
+        },
+        {
+          "id": 12560,
+          "date": "2026-05-17",
+          "timestamp": 1779046829,
+          "track": "Palm Grease",
+          "artist": "Herbie Hancock",
+          "album": "Thrust",
+          "mbid": "84c398d6-a43f-465a-b767-06e840a2e4ce",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779046829
+        },
+        {
+          "id": 12561,
+          "date": "2026-05-17",
+          "timestamp": 1779047495,
+          "track": "Spiraling Prism",
+          "artist": "Herbie Hancock",
+          "album": "MR. HANDS",
+          "mbid": "067f19d9-e268-4054-b8cd-df86ee77c234",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779047495
+        },
+        {
+          "id": 12562,
+          "date": "2026-05-17",
+          "timestamp": 1779047881,
+          "track": "Textures",
+          "artist": "Herbie Hancock",
+          "album": "MR. HANDS",
+          "mbid": "06ab8f04-dfc0-3bda-8ac7-3847bfeafd34",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779047881
+        },
+        {
+          "id": 12563,
+          "date": "2026-05-17",
+          "timestamp": 1779048279,
+          "track": "Next View",
+          "artist": "Nujabes",
+          "album": "Metaphorical Music",
+          "mbid": "4a6bfd0f-5882-3108-8e28-c5458ca65eb3",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779048279
+        },
+        {
+          "id": 12564,
+          "date": "2026-05-17",
+          "timestamp": 1779050836,
+          "track": "Riding (Day)",
+          "artist": "The Versions",
+          "album": "The Legend of Zelda: Breath of the Wild",
+          "mbid": "a797a1fc-e774-4244-abb1-b334f7451ef2",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779050836
+        },
+        {
+          "id": 12565,
+          "date": "2026-05-17",
+          "timestamp": 1779050940,
+          "track": "Riding (Night)",
+          "artist": "The Versions",
+          "album": "The Legend of Zelda: Breath of the Wild",
+          "mbid": "9c85f3d3-9510-47f3-9bb9-ba89952ceda0",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779050940
+        },
+        {
+          "id": 12566,
+          "date": "2026-05-17",
+          "timestamp": 1779051040,
+          "track": "Zora's Domain (Night) - Acoustic Version",
+          "artist": "The Versions",
+          "album": "The Legend of Zelda: Breath of the Wild",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779051040
+        },
+        {
+          "id": 12567,
+          "date": "2026-05-17",
+          "timestamp": 1779051246,
+          "track": "Song of Healing (From \"The Legend of Zelda: Majora's Mask\")",
+          "artist": "MajorLink",
+          "album": "Song of Healing (From \"The Legend of Zelda: Majora's Mask\")",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779051246
+        },
+        {
+          "id": 12568,
+          "date": "2026-05-17",
+          "timestamp": 1779051374,
+          "track": "Next View",
+          "artist": "Nujabes",
+          "album": "Metaphorical Music",
+          "mbid": "4a6bfd0f-5882-3108-8e28-c5458ca65eb3",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779051374
+        },
+        {
+          "id": 12569,
+          "date": "2026-05-17",
+          "timestamp": 1779052024,
+          "track": "It's Just Us",
+          "artist": "Kali Uchis",
+          "album": "Sincerely,",
+          "mbid": "f6c1cba9-7f35-49aa-a1df-156813e07943",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779052024
+        },
+        {
+          "id": 12570,
+          "date": "2026-05-17",
+          "timestamp": 1779052231,
+          "track": "Blue",
+          "artist": "Kali Uchis",
+          "album": "Red Moon in Venus",
+          "mbid": "54a5ea43-39c2-4f8a-87f6-683fb85c45ff",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779052231
+        },
+        {
+          "id": 12571,
+          "date": "2026-05-17",
+          "timestamp": 1779052424,
+          "track": "To Say Hello",
+          "artist": "The Marías",
+          "album": "CINEMA",
+          "mbid": "340f5067-2911-4106-989e-09d5b87552fc",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779052424
+        },
+        {
+          "id": 12572,
+          "date": "2026-05-17",
+          "timestamp": 1779052566,
+          "track": "Dearly Beloved",
+          "artist": "TPR",
+          "album": "Hollow & Heartless: Melancholy Music from Kingdom Hearts",
+          "mbid": "fd9e967d-3d26-44c4-bf44-11e202b40626",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779052566
+        },
+        {
+          "id": 12573,
+          "date": "2026-05-17",
+          "timestamp": 1779052704,
+          "track": "Rito Village (from \"The Legend of Zelda: Breath of the Wild\")",
+          "artist": "TPR",
+          "album": "Peaceful Days",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779052704
+        },
+        {
+          "id": 12574,
+          "date": "2026-05-17",
+          "timestamp": 1779053178,
+          "track": "海辺の葬列",
+          "artist": "Ichiko Aoba",
+          "album": "ｑｐ",
+          "mbid": "b6ea8406-2381-4e15-9c43-e5c98e659240",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 4,
+          "last_ts": 1779054376
+        },
+        {
+          "id": 12578,
+          "date": "2026-05-17",
+          "timestamp": 1779054805,
+          "track": "Seabed Eden - French version",
+          "artist": "Ichiko Aoba",
+          "album": "Seabed Eden (French version)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779054805
+        },
+        {
+          "id": 12579,
+          "date": "2026-05-17",
+          "timestamp": 1779055116,
+          "track": "惑星の泪",
+          "artist": "Ichiko Aoba",
+          "album": "Luminescent Creatures",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779055329
+        },
+        {
+          "id": 12581,
+          "date": "2026-05-17",
+          "timestamp": 1779055535,
+          "track": "Castle of sand",
+          "artist": "NUUAMM",
+          "album": "w / ave",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779055535
+        },
+        {
+          "id": 12582,
+          "date": "2026-05-17",
+          "timestamp": 1779055720,
+          "track": "ある喫茶",
+          "artist": "Mei Ehara",
+          "album": "私をしも",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779055720
+        },
+        {
+          "id": 12583,
+          "date": "2026-05-17",
+          "timestamp": 1779056209,
+          "track": "the one exists in my memories",
+          "artist": "dosii",
+          "album": "echo",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779056209
+        },
+        {
+          "id": 12584,
+          "date": "2026-05-17",
+          "timestamp": 1779056879,
+          "track": "Seabed Eden - French version",
+          "artist": "Ichiko Aoba",
+          "album": "Seabed Eden (French version)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779056879
+        },
+        {
+          "id": 12585,
+          "date": "2026-05-17",
+          "timestamp": 1779057124,
+          "track": "Sienna",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779057124
+        },
+        {
+          "id": 12586,
+          "date": "2026-05-17",
+          "timestamp": 1779057350,
+          "track": "Love You Anyway",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779057350
+        },
+        {
+          "id": 12587,
+          "date": "2026-05-17",
+          "timestamp": 1779057587,
+          "track": "Paranoia",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 7,
+          "last_ts": 1779058982
+        },
+        {
+          "id": 12594,
+          "date": "2026-05-17",
+          "timestamp": 1779059270,
+          "track": "thirteen",
+          "artist": "Electric Youth",
+          "album": "Memory Emotion",
+          "mbid": "9f52bf54-6fc7-48f3-ade4-4b3fcf611cd7",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779059270
+        },
+        {
+          "id": 12595,
+          "date": "2026-05-17",
+          "timestamp": 1779059515,
+          "track": "Living Room",
+          "artist": "Not For Radio",
+          "album": "Bloom",
+          "mbid": "1c33e7b0-6951-4246-85c7-cae546659c80",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779059515
+        },
+        {
+          "id": 12596,
+          "date": "2026-05-17",
+          "timestamp": 1779059748,
+          "track": "Touching Hands",
+          "artist": "Sven Libaek",
+          "album": "The Set (Original Motion Picture Soundtrack) [Remastered]",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 28,
+          "last_ts": 1779061412
+        },
+        {
+          "id": 12624,
+          "date": "2026-05-17",
+          "timestamp": 1779063880,
+          "track": "2EM17_KK_A08",
+          "artist": "鷺巣詩郎",
+          "album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+          "mbid": "21465d2a-3078-4b51-b6ce-c8104dc74f9a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 21,
+          "last_ts": 1779065794
+        },
+        {
+          "id": 12645,
+          "date": "2026-05-17",
+          "timestamp": 1779065829,
+          "track": "Touching Hands",
+          "artist": "Sven Libaek",
+          "album": "The Set (Original Motion Picture Soundtrack) [Remastered]",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779065829
+        },
+        {
+          "id": 12646,
+          "date": "2026-05-17",
+          "timestamp": 1779065889,
+          "track": "2EM17_KK_A08",
+          "artist": "鷺巣詩郎",
+          "album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+          "mbid": "21465d2a-3078-4b51-b6ce-c8104dc74f9a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 10,
+          "last_ts": 1779066887
+        },
+        {
+          "id": 12656,
+          "date": "2026-05-17",
+          "timestamp": 1779066975,
+          "track": "Master of None",
+          "artist": "Beach House",
+          "album": "Beach House",
+          "mbid": "7737b200-5891-4f48-b363-0aea571e8fd3",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779067174
+        },
+        {
+          "id": 12658,
+          "date": "2026-05-17",
+          "timestamp": 1779067282,
+          "track": "APETITAN",
+          "artist": "Sawano Hiroyuki",
+          "album": "TV Anime \"Attack on Titan Season 2\" (Original Soundtrack)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779067282
+        },
+        {
+          "id": 12659,
+          "date": "2026-05-17",
+          "timestamp": 1779067613,
+          "track": "The Rumbling (TV Size)",
+          "artist": "Sim",
+          "album": "The Rumbling (TV Size)",
+          "mbid": "e4420ff9-14ef-4557-a8c6-f1ed46e5007c",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779067613
+        },
+        {
+          "id": 12660,
+          "date": "2026-05-17",
+          "timestamp": 1779067704,
+          "track": "Attack on Titan",
+          "artist": "澤野弘之",
+          "album": "TV Anime \"Attack on Titan\" Original Soundtrack",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779067704
+        },
+        {
+          "id": 12661,
+          "date": "2026-05-17",
+          "timestamp": 1779067961,
+          "track": "Lock Your Doors",
+          "artist": "Death Grips",
+          "album": "No Love Deep Web",
+          "mbid": "4ea3758b-63fa-46e4-b2fa-677c4f0ca826",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779067961
+        },
+        {
+          "id": 12662,
+          "date": "2026-05-17",
+          "timestamp": 1779068194,
+          "track": "Fyrd Up",
+          "artist": "Death Grips",
+          "album": "Live From Death Valley",
+          "mbid": "8df3db70-d059-4f36-9586-3b699cfab1e2",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779068194
+        },
+        {
+          "id": 12663,
+          "date": "2026-05-17",
+          "timestamp": 1779068271,
+          "track": "Floor 555",
+          "artist": "XXXTENTACION",
+          "album": "?",
+          "mbid": "39bb1404-3d01-4949-997d-002f884d5fab",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779068271
+        },
+        {
+          "id": 12664,
+          "date": "2026-05-17",
+          "timestamp": 1779068365,
+          "track": "Gospel",
+          "artist": "Rich Brian",
+          "album": "Gospel",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779068365
+        },
+        {
+          "id": 12665,
+          "date": "2026-05-17",
+          "timestamp": 1779068538,
+          "track": "K2-",
+          "artist": "Sawano Hiroyuki",
+          "album": "\"Attack on Titan\" Season 3 Original Soundtrack",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779068538
+        },
+        {
+          "id": 12666,
+          "date": "2026-05-17",
+          "timestamp": 1779068999,
+          "track": "Witches",
+          "artist": "Alice Phoebe Lou",
+          "album": "Witches",
+          "mbid": "61fc6912-0785-402e-bfd8-388f28157f62",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779069193
+        },
+        {
+          "id": 12668,
+          "date": "2026-05-17",
+          "timestamp": 1779069420,
+          "track": "Better Off (Dying)",
+          "artist": "Lil Peep",
+          "album": "Come Over When You're Sober, Pt. 1",
+          "mbid": "44d0500c-ba2d-4477-8904-22f1428dd982",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779069420
+        },
+        {
+          "id": 12669,
+          "date": "2026-05-17",
+          "timestamp": 1779069643,
+          "track": "Fast Car",
+          "artist": "Jonas Blue",
+          "album": "Fast Car",
+          "mbid": "03f7b893-2c83-4f1e-a80d-4ae743648c15",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779069643
+        },
+        {
+          "id": 12670,
+          "date": "2026-05-17",
+          "timestamp": 1779069855,
+          "track": "Clear",
+          "artist": "Pusher",
+          "album": "Clear",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779069855
+        },
+        {
+          "id": 12671,
+          "date": "2026-05-17",
+          "timestamp": 1779070092,
+          "track": "Not Going Home (feat. Gia Koka)",
+          "artist": "DVBBS",
+          "album": "Not Going Home (feat. Gia Koka)",
+          "mbid": "7ddbb0ce-b6d9-4a22-814c-ece839e5fbea",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779070092
+        },
+        {
+          "id": 12672,
+          "date": "2026-05-17",
+          "timestamp": 1779070288,
+          "track": "Taped Up Heart (feat. Clara Mae)",
+          "artist": "Kream",
+          "album": "Taped Up Heart (feat. Clara Mae)",
+          "mbid": "0a05bc3b-4545-42f3-9569-a1dc493bb54c",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779070288
+        },
+        {
+          "id": 12673,
+          "date": "2026-05-17",
+          "timestamp": 1779070538,
+          "track": "Never Be Like You (feat. Kai)",
+          "artist": "Flume",
+          "album": "Skin",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779070538
+        },
+        {
+          "id": 12674,
+          "date": "2026-05-17",
+          "timestamp": 1779070772,
+          "track": "Famous",
+          "artist": "Kanye West",
+          "album": "The Life of Pablo",
+          "mbid": "df7f1430-37e8-415a-860d-ecdb446755cc",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779070772
+        },
+        {
+          "id": 12675,
+          "date": "2026-05-17",
+          "timestamp": 1779070969,
+          "track": "This One's For You (feat. Zara Larsson) (Official Song UEFA EURO 2016)",
+          "artist": "David Guetta",
+          "album": "This One's For You (feat. Zara Larsson) [Official Song UEFA EURO 2016]",
+          "mbid": "77b82c74-bf3e-45ac-b5b4-6536a057c114",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779070969
+        },
+        {
+          "id": 12676,
+          "date": "2026-05-17",
+          "timestamp": 1779071177,
+          "track": "Mirrors",
+          "artist": "Justin Timberlake",
+          "album": "The 20/20 Experience (Deluxe Version)",
+          "mbid": "d3bfad61-e635-4fbe-bbb7-ec98823851fe",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 13,
+          "last_ts": 1779077953
+        }
+      ],
+      "blocks": [
+        {
+          "id": 143,
+          "date": "2026-05-17",
+          "label": "unwinding",
+          "color_key": "blue",
+          "start_ts": 1778994186,
+          "end_ts": 1778997651
+        },
+        {
+          "id": 144,
+          "date": "2026-05-17",
+          "label": "brekkie + getting ready",
+          "color_key": "coral",
+          "start_ts": 1779034568,
+          "end_ts": 1779040836
+        },
+        {
+          "id": 145,
+          "date": "2026-05-17",
+          "label": "walk + driehaus",
+          "color_key": "#fdffa9",
+          "start_ts": 1779041020,
+          "end_ts": 1779045001
+        },
+        {
+          "id": 146,
+          "date": "2026-05-17",
+          "label": "lunch + sunday reset (cleaning)",
+          "color_key": "green",
+          "start_ts": 1779045938,
+          "end_ts": 1779048279
+        },
+        {
+          "id": 147,
+          "date": "2026-05-17",
+          "label": "study",
+          "color_key": "teal",
+          "start_ts": 1779050836,
+          "end_ts": 1779059515
+        },
+        {
+          "id": 148,
+          "date": "2026-05-17",
+          "label": "reading (4 fun)",
+          "color_key": "#5dcac1",
+          "start_ts": 1779059748,
+          "end_ts": 1779065889
+        },
+        {
+          "id": 149,
+          "date": "2026-05-17",
+          "label": "lifting",
+          "color_key": "#5d71ca",
+          "start_ts": 1779066975,
+          "end_ts": 1779070969
+        },
+        {
+          "id": 150,
+          "date": "2026-05-17",
+          "label": "winding down",
+          "color_key": "#845dca",
+          "start_ts": 1779071177,
+          "end_ts": 1779071177
+        }
+      ],
+      "notes": "maria and ichiko sang me to sleep as i rolled around in bed in a semi-conscious state. i started the day off with my imogen playlist + songs i randomly felt an urge to listen to (boom clap, beggin' on your knees, xanny family). i default to starting my ichiko playlist whenever i step foot in a museum but i opted to just listen to seabed eden on loop today. my sleep quality was not great so i haven't been able to be as present as i'd like to be, both in general and in terms of listening to music...i want to try to listen with more intention tomorrow and try to set aside at least half an hour for checking out new albums and artists!"
+    },
+    "2026-05-18": {
+      "date": "2026-05-18",
+      "synced": true,
+      "stats": {
+        "total_scrobbles": 109,
+        "unique_tracks": 16,
+        "unique_artists": 10,
+        "unique_albums": 13,
+        "top_track": "2EM17_KK_A08",
+        "top_track_artist": "鷺巣詩郎",
+        "top_track_count": 41,
+        "top_album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+        "top_album_artist": "鷺巣詩郎",
+        "peak_hour": 10,
+        "peak_hour_label": "10am",
+        "new_artists": [],
+        "new_tracks": [
+          {
+            "track": "Meet Me Halfway",
+            "artist": "Black Eyed Peas"
+          },
+          {
+            "track": "Wildflower",
+            "artist": "Beach House"
+          }
+        ],
+        "new_albums": [
+          {
+            "album": "The E.N.D. (The Energy Never Dies)",
+            "artist": "Black Eyed Peas"
+          }
+        ]
+      },
+      "scrobbles": [
+        {
+          "id": 10742,
+          "date": "2026-05-18",
+          "timestamp": 1779109575,
+          "track": "Back to You",
+          "artist": "Not For Radio",
+          "album": "Melt",
+          "mbid": "de8c5d5d-8520-4e1a-94b3-49130d4b0bb9",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 10,
+          "last_ts": 1779112066
+        },
+        {
+          "id": 10752,
+          "date": "2026-05-18",
+          "timestamp": 1779112367,
+          "track": "Back To Me",
+          "artist": "The Marías",
+          "album": "Back To Me",
+          "mbid": "f7df1da3-38e4-4819-83d5-36720beecb0f",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779112581
+        },
+        {
+          "id": 10754,
+          "date": "2026-05-18",
+          "timestamp": 1779112821,
+          "track": "Nobody New",
+          "artist": "The Marías",
+          "album": "Back To Me",
+          "mbid": "11bb6328-85a5-425c-8db3-bffe469ae057",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 5,
+          "last_ts": 1779113682
+        },
+        {
+          "id": 10759,
+          "date": "2026-05-18",
+          "timestamp": 1779113900,
+          "track": "Meet Me Halfway",
+          "artist": "Black Eyed Peas",
+          "album": "The E.N.D. (The Energy Never Dies)",
+          "mbid": "ecfbb75e-1a7c-4626-96a5-40d71fde624c",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 6,
+          "last_ts": 1779116446
+        },
+        {
+          "id": 10765,
+          "date": "2026-05-18",
+          "timestamp": 1779116847,
+          "track": "2EM17_KK_A08",
+          "artist": "鷺巣詩郎",
+          "album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+          "mbid": "21465d2a-3078-4b51-b6ce-c8104dc74f9a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 21,
+          "last_ts": 1779118759
+        },
+        {
+          "id": 10786,
+          "date": "2026-05-18",
+          "timestamp": 1779118877,
+          "track": "Hamptons",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779118877
+        },
+        {
+          "id": 10787,
+          "date": "2026-05-18",
+          "timestamp": 1779119064,
+          "track": "Paranoia",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 6,
+          "last_ts": 1779125012
+        },
+        {
+          "id": 10793,
+          "date": "2026-05-18",
+          "timestamp": 1779125530,
+          "track": "Dearly Beloved",
+          "artist": "TPR",
+          "album": "Hollow & Heartless: Melancholy Music from Kingdom Hearts",
+          "mbid": "fd9e967d-3d26-44c4-bf44-11e202b40626",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 19,
+          "last_ts": 1779129262
+        },
+        {
+          "id": 10812,
+          "date": "2026-05-18",
+          "timestamp": 1779129883,
+          "track": "Open My Door",
+          "artist": "Alice Phoebe Lou",
+          "album": "Shelter",
+          "mbid": "ab4acfd3-7028-495f-a448-56ec4a6db174",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779129883
+        },
+        {
+          "id": 10813,
+          "date": "2026-05-18",
+          "timestamp": 1779130075,
+          "track": "Pretty Boy Swag",
+          "artist": "Soulja Boy",
+          "album": "The DeAndre Way (Deluxe Explicit Version)",
+          "mbid": "14caf097-15a4-3b6f-9ac5-5a7feb4fd4b8",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779130075
+        },
+        {
+          "id": 10814,
+          "date": "2026-05-18",
+          "timestamp": 1779130310,
+          "track": "Kiss Me Thru The Phone",
+          "artist": "Soulja Boy",
+          "album": "iSouljaBoyTellEm",
+          "mbid": "435c4b44-6853-4001-a56a-bfe173b05868",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779130310
+        },
+        {
+          "id": 10815,
+          "date": "2026-05-18",
+          "timestamp": 1779130411,
+          "track": "Dearly Beloved",
+          "artist": "TPR",
+          "album": "Hollow & Heartless: Melancholy Music from Kingdom Hearts",
+          "mbid": "fd9e967d-3d26-44c4-bf44-11e202b40626",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779130411
+        },
+        {
+          "id": 10816,
+          "date": "2026-05-18",
+          "timestamp": 1779140424,
+          "track": "Sienna",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779140424
+        },
+        {
+          "id": 10817,
+          "date": "2026-05-18",
+          "timestamp": 1779140648,
+          "track": "No One Noticed (Extended Spanish)",
+          "artist": "The Marías",
+          "album": "No One Noticed (Extended)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779140648
+        },
+        {
+          "id": 10818,
+          "date": "2026-05-18",
+          "timestamp": 1779140932,
+          "track": "Paranoia",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779140932
+        },
+        {
+          "id": 10819,
+          "date": "2026-05-18",
+          "timestamp": 1779141165,
+          "track": "Love/Paranoia",
+          "artist": "Tame Impala",
+          "album": "Currents",
+          "mbid": "089d49aa-cad5-4a62-ac54-5d8c89654be2",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779141165
+        },
+        {
+          "id": 10820,
+          "date": "2026-05-18",
+          "timestamp": 1779141351,
+          "track": "Wildflower",
+          "artist": "Beach House",
+          "album": "Depression Cherry",
+          "mbid": "26cd80b4-93a7-4b0d-b7d1-08cfbbeca66f",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779141351
+        },
+        {
+          "id": 10821,
+          "date": "2026-05-18",
+          "timestamp": 1779141515,
+          "track": "2EM17_KK_A08",
+          "artist": "鷺巣詩郎",
+          "album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+          "mbid": "21465d2a-3078-4b51-b6ce-c8104dc74f9a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 20,
+          "last_ts": 1779143332
+        },
+        {
+          "id": 10841,
+          "date": "2026-05-18",
+          "timestamp": 1779143524,
+          "track": "Meet Me Halfway",
+          "artist": "Black Eyed Peas",
+          "album": "The E.N.D. (The Energy Never Dies)",
+          "mbid": "ecfbb75e-1a7c-4626-96a5-40d71fde624c",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779143524
+        },
+        {
+          "id": 10842,
+          "date": "2026-05-18",
+          "timestamp": 1779143679,
+          "track": "Pretty Boy Swag",
+          "artist": "Soulja Boy",
+          "album": "The DeAndre Way (Deluxe Explicit Version)",
+          "mbid": "14caf097-15a4-3b6f-9ac5-5a7feb4fd4b8",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779143679
+        },
+        {
+          "id": 10843,
+          "date": "2026-05-18",
+          "timestamp": 1779143946,
+          "track": "Kiss Me Thru The Phone",
+          "artist": "Soulja Boy",
+          "album": "iSouljaBoyTellEm",
+          "mbid": "435c4b44-6853-4001-a56a-bfe173b05868",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779143946
+        },
+        {
+          "id": 10844,
+          "date": "2026-05-18",
+          "timestamp": 1779144046,
+          "track": "Open My Door",
+          "artist": "Alice Phoebe Lou",
+          "album": "Shelter",
+          "mbid": "ab4acfd3-7028-495f-a448-56ec4a6db174",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779144197
+        },
+        {
+          "id": 10846,
+          "date": "2026-05-18",
+          "timestamp": 1779154182,
+          "track": "back to friends",
+          "artist": "sombr",
+          "album": "back to friends",
+          "mbid": "d79a255b-7063-48b5-8ddb-8bc7225faeaa",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 5,
+          "last_ts": 1779154978
+        }
+      ],
+      "blocks": [
+        {
+          "id": 344,
+          "date": "2026-05-18",
+          "label": "☀️",
+          "color_key": "coral",
+          "start_ts": 1779109575,
+          "end_ts": 1779113900
+        },
+        {
+          "id": 345,
+          "date": "2026-05-18",
+          "label": "commute",
+          "color_key": "blue",
+          "start_ts": 1779116847,
+          "end_ts": 1779116847
+        },
+        {
+          "id": 346,
+          "date": "2026-05-18",
+          "label": "walk 2 class",
+          "color_key": "teal",
+          "start_ts": 1779118877,
+          "end_ts": 1779119064
+        },
+        {
+          "id": 347,
+          "date": "2026-05-18",
+          "label": "study",
+          "color_key": "green",
+          "start_ts": 1779125530,
+          "end_ts": 1779125530
+        },
+        {
+          "id": 348,
+          "date": "2026-05-18",
+          "label": "walk 2 class",
+          "color_key": "#c7e546",
+          "start_ts": 1779129883,
+          "end_ts": 1779130411
+        },
+        {
+          "id": 349,
+          "date": "2026-05-18",
+          "label": "walk 2 davis",
+          "color_key": "#ffd742",
+          "start_ts": 1779140424,
+          "end_ts": 1779141351
+        },
+        {
+          "id": 350,
+          "date": "2026-05-18",
+          "label": "reading (while commuting home)",
+          "color_key": "#ffc85a",
+          "start_ts": 1779141515,
+          "end_ts": 1779144046
+        },
+        {
+          "id": 351,
+          "date": "2026-05-18",
+          "label": "?????",
+          "color_key": "#ff9b42",
+          "start_ts": 1779154182,
+          "end_ts": 1779154182
+        }
+      ],
+      "notes": "not a very notable day overall but i was finally well enough to go to class (double middle fingers @ lupus!). it'd been a while since i got to enjoy reading while listening to my Commute Reading song™️ (\"2EM17_KK_A08\", beautiful little tune by shiro sagisu for the evangelion rebuilds, originally composed for and used in for Kare Kano); i'm slowly but surely feeling more like myself day by day. got a soulja boy itch out of nowhere midday; listening to all his classics revived me + reminded me of my time in hawaii last spring...my friend kayla exclusively listened to sir soulja all of spring break. the black eyed peas + alice also helped me get through this murky monkeyless monday. no new music...maybe tomorrow"
+    },
+    "2026-05-19": {
+      "date": "2026-05-19",
+      "synced": true,
+      "stats": {
+        "total_scrobbles": 93,
+        "unique_tracks": 40,
+        "unique_artists": 34,
+        "unique_albums": 37,
+        "top_track": "2EM17_KK_A08",
+        "top_track_artist": "鷺巣詩郎",
+        "top_track_count": 41,
+        "top_album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+        "top_album_artist": "鷺巣詩郎",
+        "peak_hour": 14,
+        "peak_hour_label": "2pm",
+        "new_artists": [
+          "Minova",
+          "Edward Maya",
+          "B.o.B",
+          "Kelly Clarkson",
+          "OutKast",
+          "Far East Movement",
+          "Brandy",
+          "Ne-Yo"
+        ],
+        "new_tracks": [
+          {
+            "track": "Duvet - acoustic",
+            "artist": "bôa"
+          },
+          {
+            "track": "Good Life",
+            "artist": "Kanye West"
+          },
+          {
+            "track": "Hotel California",
+            "artist": "Joji"
+          },
+          {
+            "track": "I Miss You So",
+            "artist": "Minova"
+          },
+          {
+            "track": "Save That Shit",
+            "artist": "Chief Keef"
+          },
+          {
+            "track": "Stereo Love",
+            "artist": "Edward Maya"
+          },
+          {
+            "track": "Nothin' on You (feat. Bruno Mars)",
+            "artist": "B.o.B"
+          },
+          {
+            "track": "Don't Stop the Music",
+            "artist": "Rihanna"
+          },
+          {
+            "track": "Can't Tell Me Nothing",
+            "artist": "Kanye West"
+          },
+          {
+            "track": "Swimming Pools (Drank)",
+            "artist": "Kendrick Lamar"
+          },
+          {
+            "track": "Since U Been Gone",
+            "artist": "Kelly Clarkson"
+          },
+          {
+            "track": "Memories (feat. Kid Cudi)",
+            "artist": "David Guetta"
+          },
+          {
+            "track": "Ms. Jackson",
+            "artist": "OutKast"
+          },
+          {
+            "track": "Rocketeer",
+            "artist": "Far East Movement"
+          },
+          {
+            "track": "The Boy Is Mine",
+            "artist": "Brandy"
+          },
+          {
+            "track": "Closer",
+            "artist": "Ne-Yo"
+          }
+        ],
+        "new_albums": [
+          {
+            "album": "I Miss You So",
+            "artist": "Minova"
+          },
+          {
+            "album": "Back From The Dead",
+            "artist": "Chief Keef"
+          },
+          {
+            "album": "Stereo Love",
+            "artist": "Edward Maya"
+          },
+          {
+            "album": "B.o.B Presents: The Adventures of Bobby Ray",
+            "artist": "B.o.B"
+          },
+          {
+            "album": "Good Girl Gone Bad",
+            "artist": "Rihanna"
+          },
+          {
+            "album": "Swimming Pools (Drank)",
+            "artist": "Kendrick Lamar"
+          },
+          {
+            "album": "Breakaway",
+            "artist": "Kelly Clarkson"
+          },
+          {
+            "album": "One More Love",
+            "artist": "David Guetta"
+          },
+          {
+            "album": "Stankonia",
+            "artist": "OutKast"
+          },
+          {
+            "album": "Free Wired",
+            "artist": "Far East Movement"
+          },
+          {
+            "album": "Never Say Never",
+            "artist": "Brandy"
+          },
+          {
+            "album": "Year of the Gentleman (Bonus Track Edition)",
+            "artist": "Ne-Yo"
+          }
+        ]
+      },
+      "scrobbles": [
+        {
+          "id": 10851,
+          "date": "2026-05-19",
+          "timestamp": 1779209457,
+          "track": "Setting Sun",
+          "artist": "You'll Never Get to Heaven",
+          "album": "Wave Your Moonlight Hat for the Snowfall Train",
+          "mbid": "c82adf13-7a60-4ac3-b473-92e2460641df",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779209457
+        },
+        {
+          "id": 10852,
+          "date": "2026-05-19",
+          "timestamp": 1779209635,
+          "track": "Moon Dreams",
+          "artist": "Miles Davis",
+          "album": "Birth of the Cool",
+          "mbid": "3b5a281e-608f-4703-bf61-bb80977e2b06",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779209635
+        },
+        {
+          "id": 10853,
+          "date": "2026-05-19",
+          "timestamp": 1779209836,
+          "track": "Nobody",
+          "artist": "Mitski",
+          "album": "Be the Cowboy",
+          "mbid": "d51a3cb4-4d77-4b0e-9e15-13c2fdc13b03",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779209836
+        },
+        {
+          "id": 10854,
+          "date": "2026-05-19",
+          "timestamp": 1779210041,
+          "track": "Duvet - acoustic",
+          "artist": "bôa",
+          "album": "Twilight",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779210041
+        },
+        {
+          "id": 10855,
+          "date": "2026-05-19",
+          "timestamp": 1779210366,
+          "track": "Kiss Me Thru The Phone",
+          "artist": "Soulja Boy",
+          "album": "iSouljaBoyTellEm",
+          "mbid": "435c4b44-6853-4001-a56a-bfe173b05868",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779210366
+        },
+        {
+          "id": 10856,
+          "date": "2026-05-19",
+          "timestamp": 1779210559,
+          "track": "Part of Me",
+          "artist": "Katy Perry",
+          "album": "Teenage Dream: The Complete Confection",
+          "mbid": "4134b972-74d7-4820-801f-43d497e8e04b",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779210559
+        },
+        {
+          "id": 10857,
+          "date": "2026-05-19",
+          "timestamp": 1779210776,
+          "track": "Good Life",
+          "artist": "Kanye West",
+          "album": "Graduation",
+          "mbid": "782ec45a-2828-40f9-a4b5-17ef3fb1219b",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779210776
+        },
+        {
+          "id": 10858,
+          "date": "2026-05-19",
+          "timestamp": 1779211007,
+          "track": "Cantos de sirena",
+          "artist": "Inma Serrano",
+          "album": "Cantos De Sirena",
+          "mbid": "3fc80af7-0506-4568-8eea-1f9190bc3134",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779211007
+        },
+        {
+          "id": 10859,
+          "date": "2026-05-19",
+          "timestamp": 1779211267,
+          "track": "Die for You",
+          "artist": "Joji",
+          "album": "SMITHEREENS",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779211267
+        },
+        {
+          "id": 10860,
+          "date": "2026-05-19",
+          "timestamp": 1779211478,
+          "track": "Hotel California",
+          "artist": "Joji",
+          "album": "Piss In The Wind",
+          "mbid": "67a310f0-c679-46c1-b20c-681466001d8f",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779211478
+        },
+        {
+          "id": 10861,
+          "date": "2026-05-19",
+          "timestamp": 1779211607,
+          "track": "I Miss You So",
+          "artist": "Minova",
+          "album": "I Miss You So",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779211607
+        },
+        {
+          "id": 10862,
+          "date": "2026-05-19",
+          "timestamp": 1779211766,
+          "track": "Kiss Me Thru The Phone",
+          "artist": "Soulja Boy",
+          "album": "iSouljaBoyTellEm",
+          "mbid": "435c4b44-6853-4001-a56a-bfe173b05868",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779211766
+        },
+        {
+          "id": 10863,
+          "date": "2026-05-19",
+          "timestamp": 1779211958,
+          "track": "Paparazzi",
+          "artist": "Lady Gaga",
+          "album": "The Fame",
+          "mbid": "80d32385-2551-4ff9-8999-2c6a4dbd3dec",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779211958
+        },
+        {
+          "id": 10864,
+          "date": "2026-05-19",
+          "timestamp": 1779212167,
+          "track": "Save That Shit",
+          "artist": "Chief Keef",
+          "album": "Back From The Dead",
+          "mbid": "118e5ccb-c0d2-310a-9036-f0e226524ba3",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779212167
+        },
+        {
+          "id": 10865,
+          "date": "2026-05-19",
+          "timestamp": 1779212381,
+          "track": "Love Sosa",
+          "artist": "Chief Keef",
+          "album": "Finally Rich",
+          "mbid": "d91dc211-dc05-327a-ba10-13c215036150",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779212381
+        },
+        {
+          "id": 10866,
+          "date": "2026-05-19",
+          "timestamp": 1779212628,
+          "track": "Stereo Love",
+          "artist": "Edward Maya",
+          "album": "Stereo Love",
+          "mbid": "cb62500d-dae2-4eaf-8489-42b6f140203a",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779212628
+        },
+        {
+          "id": 10867,
+          "date": "2026-05-19",
+          "timestamp": 1779212813,
+          "track": "Give Your Heart a Break",
+          "artist": "Demi Lovato",
+          "album": "Unbroken",
+          "mbid": "0307c0b8-cf1b-4b1f-b966-bc01773015d9",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779212813
+        },
+        {
+          "id": 10868,
+          "date": "2026-05-19",
+          "timestamp": 1779213019,
+          "track": "Nothin' on You (feat. Bruno Mars)",
+          "artist": "B.o.B",
+          "album": "B.o.B Presents: The Adventures of Bobby Ray",
+          "mbid": "3eb04c84-9df9-4db7-87ee-e7a857ec758a",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779213019
+        },
+        {
+          "id": 10869,
+          "date": "2026-05-19",
+          "timestamp": 1779213288,
+          "track": "Don't Stop the Music",
+          "artist": "Rihanna",
+          "album": "Good Girl Gone Bad",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779213288
+        },
+        {
+          "id": 10870,
+          "date": "2026-05-19",
+          "timestamp": 1779213556,
+          "track": "Can't Tell Me Nothing",
+          "artist": "Kanye West",
+          "album": "Graduation",
+          "mbid": "7531c3ec-e2e0-48d6-83b4-eeb240dc88d9",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779213556
+        },
+        {
+          "id": 10871,
+          "date": "2026-05-19",
+          "timestamp": 1779213828,
+          "track": "Swimming Pools (Drank)",
+          "artist": "Kendrick Lamar",
+          "album": "Swimming Pools (Drank)",
+          "mbid": "6ffbd328-b934-4c86-adf8-719be9ac6731",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779213828
+        },
+        {
+          "id": 10872,
+          "date": "2026-05-19",
+          "timestamp": 1779214076,
+          "track": "Since U Been Gone",
+          "artist": "Kelly Clarkson",
+          "album": "Breakaway",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779214076
+        },
+        {
+          "id": 10873,
+          "date": "2026-05-19",
+          "timestamp": 1779214265,
+          "track": "Memories (feat. Kid Cudi)",
+          "artist": "David Guetta",
+          "album": "One More Love",
+          "mbid": "2c007240-e4dc-4fbe-8424-4d9c4ea192cd",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779214265
+        },
+        {
+          "id": 10874,
+          "date": "2026-05-19",
+          "timestamp": 1779214475,
+          "track": "Ms. Jackson",
+          "artist": "OutKast",
+          "album": "Stankonia",
+          "mbid": "7cc7fd75-2959-4e14-986f-143938f5359a",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779214475
+        },
+        {
+          "id": 10875,
+          "date": "2026-05-19",
+          "timestamp": 1779214746,
+          "track": "Maneater",
+          "artist": "Nelly Furtado",
+          "album": "Loose",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779214746
+        },
+        {
+          "id": 10876,
+          "date": "2026-05-19",
+          "timestamp": 1779215007,
+          "track": "Pocketful of Sunshine",
+          "artist": "Natasha Bedingfield",
+          "album": "Pocketful of Sunshine",
+          "mbid": "fcd1bb59-6c47-40e1-a772-03f676a19b97",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779215007
+        },
+        {
+          "id": 10877,
+          "date": "2026-05-19",
+          "timestamp": 1779215211,
+          "track": "Rocketeer",
+          "artist": "Far East Movement",
+          "album": "Free Wired",
+          "mbid": "122cdfe0-44a5-340d-8ef1-d2bff41d78ba",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779215211
+        },
+        {
+          "id": 10878,
+          "date": "2026-05-19",
+          "timestamp": 1779215423,
+          "track": "Flashing Lights",
+          "artist": "Kanye West",
+          "album": "Graduation",
+          "mbid": "d4e8a2de-3bca-4333-be81-8812822c1349",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779215423
+        },
+        {
+          "id": 10879,
+          "date": "2026-05-19",
+          "timestamp": 1779215661,
+          "track": "The Boy Is Mine",
+          "artist": "Brandy",
+          "album": "Never Say Never",
+          "mbid": "28a18ae7-4236-3f83-86c0-a034de7ba044",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779215661
+        },
+        {
+          "id": 10880,
+          "date": "2026-05-19",
+          "timestamp": 1779215956,
+          "track": "Closer",
+          "artist": "Ne-Yo",
+          "album": "Year of the Gentleman (Bonus Track Edition)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779215956
+        },
+        {
+          "id": 10881,
+          "date": "2026-05-19",
+          "timestamp": 1779216163,
+          "track": "Say It Right",
+          "artist": "Nelly Furtado",
+          "album": "Loose",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779216163
+        },
+        {
+          "id": 10882,
+          "date": "2026-05-19",
+          "timestamp": 1779216476,
+          "track": "2EM17_KK_A08",
+          "artist": "鷺巣詩郎",
+          "album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+          "mbid": "21465d2a-3078-4b51-b6ce-c8104dc74f9a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 26,
+          "last_ts": 1779218867
+        },
+        {
+          "id": 10908,
+          "date": "2026-05-19",
+          "timestamp": 1779218995,
+          "track": "Meet Me Halfway",
+          "artist": "Black Eyed Peas",
+          "album": "The E.N.D. (The Energy Never Dies)",
+          "mbid": "ecfbb75e-1a7c-4626-96a5-40d71fde624c",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 4,
+          "last_ts": 1779219847
+        },
+        {
+          "id": 10912,
+          "date": "2026-05-19",
+          "timestamp": 1779220161,
+          "track": "Hamptons",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779220161
+        },
+        {
+          "id": 10913,
+          "date": "2026-05-19",
+          "timestamp": 1779226823,
+          "track": "2EM17_KK_A08",
+          "artist": "鷺巣詩郎",
+          "album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+          "mbid": "21465d2a-3078-4b51-b6ce-c8104dc74f9a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 7,
+          "last_ts": 1779227396
+        },
+        {
+          "id": 10920,
+          "date": "2026-05-19",
+          "timestamp": 1779228384,
+          "track": "peace u need",
+          "artist": "Fred again..",
+          "album": "ten days",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779228384
+        },
+        {
+          "id": 10921,
+          "date": "2026-05-19",
+          "timestamp": 1779228729,
+          "track": "It's Just Us",
+          "artist": "Kali Uchis",
+          "album": "Sincerely,",
+          "mbid": "f6c1cba9-7f35-49aa-a1df-156813e07943",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779228729
+        },
+        {
+          "id": 10922,
+          "date": "2026-05-19",
+          "timestamp": 1779229118,
+          "track": "peace u need",
+          "artist": "Fred again..",
+          "album": "ten days",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779229461
+        },
+        {
+          "id": 10924,
+          "date": "2026-05-19",
+          "timestamp": 1779229721,
+          "track": "2EM17_KK_A08",
+          "artist": "鷺巣詩郎",
+          "album": "ヱヴァンゲリヲン新劇場版:破 オリジナルサウンドトラック",
+          "mbid": "21465d2a-3078-4b51-b6ce-c8104dc74f9a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 8,
+          "last_ts": 1779230389
+        },
+        {
+          "id": 10932,
+          "date": "2026-05-19",
+          "timestamp": 1779230498,
+          "track": "Meet Me Halfway",
+          "artist": "Black Eyed Peas",
+          "album": "The E.N.D. (The Energy Never Dies)",
+          "mbid": "ecfbb75e-1a7c-4626-96a5-40d71fde624c",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779230498
+        },
+        {
+          "id": 10933,
+          "date": "2026-05-19",
+          "timestamp": 1779230946,
+          "track": "Little Lies",
+          "artist": "Odie",
+          "album": "Analogue",
+          "mbid": "2199949c-98f3-4b58-b965-43364be10f26",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779230946
+        },
+        {
+          "id": 10934,
+          "date": "2026-05-19",
+          "timestamp": 1779231119,
+          "track": "I Know It's Over - 2011 Remaster",
+          "artist": "The Smiths",
+          "album": "The Queen Is Dead",
+          "mbid": "da25eade-e561-4af9-90ed-9f3619a05cf1",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779231119
+        },
+        {
+          "id": 10935,
+          "date": "2026-05-19",
+          "timestamp": 1779231468,
+          "track": "i'll be around",
+          "artist": "Fog Lake",
+          "album": "Carousel",
+          "mbid": "98af9e73-7db0-4f09-93b6-00084c846e59",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779231468
+        },
+        {
+          "id": 10936,
+          "date": "2026-05-19",
+          "timestamp": 1779231587,
+          "track": "Casual",
+          "artist": "Chappell Roan",
+          "album": "The Rise and Fall of a Midwest Princess",
+          "mbid": "f26ff4f8-9be9-4e7e-b0c0-f24549dce437",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 4,
+          "last_ts": 1779232287
+        },
+        {
+          "id": 10940,
+          "date": "2026-05-19",
+          "timestamp": 1779232447,
+          "track": "Good Luck, Babe!",
+          "artist": "Chappell Roan",
+          "album": "Good Luck, Babe!",
+          "mbid": "9d97dc85-01e2-400e-8a3f-40cd4790de59",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 4,
+          "last_ts": 1779233100
+        }
+      ],
+      "blocks": [
+        {
+          "id": 192,
+          "date": "2026-05-19",
+          "label": "☀️",
+          "color_key": "coral",
+          "start_ts": 1779209457,
+          "end_ts": 1779216163
+        },
+        {
+          "id": 193,
+          "date": "2026-05-19",
+          "label": "reading",
+          "color_key": "pink",
+          "start_ts": 1779216476,
+          "end_ts": 1779216476
+        },
+        {
+          "id": 194,
+          "date": "2026-05-19",
+          "label": "walkin",
+          "color_key": "#ff3176",
+          "start_ts": 1779218995,
+          "end_ts": 1779220161
+        },
+        {
+          "id": 195,
+          "date": "2026-05-19",
+          "label": "cs fest",
+          "color_key": "#aa0045",
+          "start_ts": 1779226823,
+          "end_ts": 1779226823
+        },
+        {
+          "id": 196,
+          "date": "2026-05-19",
+          "label": "walk 2 noyes",
+          "color_key": "#7a0132",
+          "start_ts": 1779228384,
+          "end_ts": 1779229118
+        },
+        {
+          "id": 197,
+          "date": "2026-05-19",
+          "label": "commute home",
+          "color_key": "#540122",
+          "start_ts": 1779229721,
+          "end_ts": 1779229721
+        },
+        {
+          "id": 198,
+          "date": "2026-05-19",
+          "label": "din + tidying up",
+          "color_key": "#000000",
+          "start_ts": 1779230498,
+          "end_ts": 1779232447
+        }
+      ],
+      "notes": "started off strong w a couple new artists and songs (though i must admit that i don't really remember any of them). \"2EM17_KK_A08\" is really skewing my listening data since i just have it on loop as i read in transit...i'm also realizing (for the 300th time) that ~50% of the songs i listen to are the ones that defined 2024 summer + fall for me; it's bittersweet that most, if not all of these songs will be forever tinged by the deepest, darkest blues i ever found myself in (so far), but the blues have faded and are not visible to most :^] i want to, need to make more of an effort to listen to new + more upbeat songs but i always find my way back to the marias' submarine. i feel stuck but that's okay (for now)"
+    },
+    "2026-05-20": {
+      "date": "2026-05-20",
+      "synced": true,
+      "stats": {
+        "total_scrobbles": 113,
+        "unique_tracks": 73,
+        "unique_artists": 47,
+        "unique_albums": 61,
+        "top_track": "Paul's Theme",
+        "top_track_artist": "Men I Trust",
+        "top_track_count": 25,
+        "top_album": "Equus Asinus",
+        "top_album_artist": "Men I Trust",
+        "peak_hour": 13,
+        "peak_hour_label": "1pm",
+        "new_artists": [
+          "Sixpence None the Richer",
+          "Part Time",
+          "Slow Pulp"
+        ],
+        "new_tracks": [
+          {
+            "track": "Girl (2025)",
+            "artist": "Men I Trust"
+          },
+          {
+            "track": "Unlike Anything",
+            "artist": "Men I Trust"
+          },
+          {
+            "track": "Blondie",
+            "artist": "Bladee"
+          },
+          {
+            "track": "Together (feat. Nikki Nair, Jessy Lanza & Prentiss)",
+            "artist": "The Avalanches"
+          },
+          {
+            "track": "Tinker Tailor Soldier Sailor Rich Man Poor Man Beggar Man Thief",
+            "artist": "Radiohead"
+          },
+          {
+            "track": "GONE, GONE / THANK YOU",
+            "artist": "Tyler, The Creator"
+          },
+          {
+            "track": "That Joke Isn't Funny Anymore",
+            "artist": "The Smiths"
+          },
+          {
+            "track": "7 years",
+            "artist": "Charli xcx"
+          },
+          {
+            "track": "I Can't",
+            "artist": "Radiohead"
+          },
+          {
+            "track": "Blow Me",
+            "artist": "P!nk"
+          },
+          {
+            "track": "Kiss Me",
+            "artist": "Sixpence None the Richer"
+          },
+          {
+            "track": "I Saw You",
+            "artist": "Fred again.."
+          },
+          {
+            "track": "tejano blue",
+            "artist": "Cigarettes After Sex"
+          },
+          {
+            "track": "Superstar",
+            "artist": "Beach House"
+          },
+          {
+            "track": "Pearls",
+            "artist": "Sade"
+          },
+          {
+            "track": "I Wanted You To Feel The Same",
+            "artist": "The Radio Dept."
+          },
+          {
+            "track": "Lies in the eyes of love",
+            "artist": "Part Time"
+          },
+          {
+            "track": "Days of Candy",
+            "artist": "Beach House"
+          },
+          {
+            "track": "kisses",
+            "artist": "Slowdive"
+          },
+          {
+            "track": "Sunday",
+            "artist": "The Cranberries"
+          },
+          {
+            "track": "Well I Wonder - 2011 Remaster",
+            "artist": "The Smiths"
+          },
+          {
+            "track": "Night Drive",
+            "artist": "Part Time"
+          },
+          {
+            "track": "Wishes",
+            "artist": "Beach House"
+          },
+          {
+            "track": "I’m your girl right?",
+            "artist": "Tove Lo"
+          },
+          {
+            "track": "Wide Awake",
+            "artist": "Katy Perry"
+          },
+          {
+            "track": "Sulfur Surfer",
+            "artist": "Bladee"
+          },
+          {
+            "track": "Versailles Flow",
+            "artist": "Bladee"
+          },
+          {
+            "track": "Sure Thing",
+            "artist": "Miguel"
+          },
+          {
+            "track": "Kiss Of Life",
+            "artist": "Sade"
+          },
+          {
+            "track": "Kiss It Better",
+            "artist": "Rihanna"
+          },
+          {
+            "track": "butterflies.",
+            "artist": "Brent Faiyaz"
+          },
+          {
+            "track": "All I Want Is You (feat. J. Cole)",
+            "artist": "Miguel"
+          },
+          {
+            "track": "Silly",
+            "artist": "Alice Phoebe Lou"
+          },
+          {
+            "track": "Falling Apart",
+            "artist": "Slow Pulp"
+          },
+          {
+            "track": "Changed",
+            "artist": "Cornelia Murr"
+          },
+          {
+            "track": "If You Love Her",
+            "artist": "Tokyo Tea Room"
+          },
+          {
+            "track": "Lovesick",
+            "artist": "Alice Phoebe Lou"
+          },
+          {
+            "track": "Dream Free",
+            "artist": "Sam Evian"
+          }
+        ],
+        "new_albums": [
+          {
+            "album": "Blondie",
+            "artist": "Bladee"
+          },
+          {
+            "album": "Together (feat. Nikki Nair, Jessy Lanza & Prentiss)",
+            "artist": "The Avalanches"
+          },
+          {
+            "album": "Sixpence None the Richer",
+            "artist": "Sixpence None the Richer"
+          },
+          {
+            "album": "X's",
+            "artist": "Cigarettes After Sex"
+          },
+          {
+            "album": "Once Twice Melody",
+            "artist": "Beach House"
+          },
+          {
+            "album": "Love Deluxe",
+            "artist": "Sade"
+          },
+          {
+            "album": "Pet Grief",
+            "artist": "The Radio Dept."
+          },
+          {
+            "album": "Lies in the eyes of love",
+            "artist": "Part Time"
+          },
+          {
+            "album": "everything is alive",
+            "artist": "Slowdive"
+          },
+          {
+            "album": "Everybody Else Is Doing It, So Why Can't We?",
+            "artist": "The Cranberries"
+          },
+          {
+            "album": "P.D.A.",
+            "artist": "Part Time"
+          },
+          {
+            "album": "I’m your girl right?",
+            "artist": "Tove Lo"
+          },
+          {
+            "album": "Sulfur Surfer",
+            "artist": "Bladee"
+          },
+          {
+            "album": "All I Want Is You",
+            "artist": "Miguel"
+          },
+          {
+            "album": "ICON",
+            "artist": "Brent Faiyaz"
+          },
+          {
+            "album": "Child's Play",
+            "artist": "Alice Phoebe Lou"
+          },
+          {
+            "album": "Moveys",
+            "artist": "Slow Pulp"
+          },
+          {
+            "album": "Changed",
+            "artist": "Cornelia Murr"
+          },
+          {
+            "album": "No Rush",
+            "artist": "Tokyo Tea Room"
+          },
+          {
+            "album": "Time To Melt",
+            "artist": "Sam Evian"
+          }
+        ]
+      },
+      "scrobbles": [
+        {
+          "id": 11122,
+          "date": "2026-05-20",
+          "timestamp": 1779273599,
+          "track": "Sienna",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 9,
+          "last_ts": 1779275401
+        },
+        {
+          "id": 11131,
+          "date": "2026-05-20",
+          "timestamp": 1779275648,
+          "track": "Telephones",
+          "artist": "VACATIONS",
+          "album": "Changes",
+          "mbid": "299b9bba-486a-4a66-ae4f-639ebafc76b6",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 2,
+          "last_ts": 1779275859
+        },
+        {
+          "id": 11133,
+          "date": "2026-05-20",
+          "timestamp": 1779276788,
+          "track": "The Landkeeper",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "881f2aa7-c4a3-4b8d-a2cd-b9822050c587",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779276788
+        },
+        {
+          "id": 11134,
+          "date": "2026-05-20",
+          "timestamp": 1779277018,
+          "track": "Purple Box",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "728f9fad-2136-476f-a1fe-27388ca953f1",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779277018
+        },
+        {
+          "id": 11135,
+          "date": "2026-05-20",
+          "timestamp": 1779277192,
+          "track": "Paul's Theme",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "341f4941-d8f1-4613-a244-13b068250176",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779277192
+        },
+        {
+          "id": 11136,
+          "date": "2026-05-20",
+          "timestamp": 1779277378,
+          "track": "Girl (2025)",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "dbcb176a-a24d-4bc3-826c-542e9db37830",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779277378
+        },
+        {
+          "id": 11137,
+          "date": "2026-05-20",
+          "timestamp": 1779277589,
+          "track": "Burrow",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "8c29361b-942e-4435-96b4-233ed03c17ec",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779277589
+        },
+        {
+          "id": 11138,
+          "date": "2026-05-20",
+          "timestamp": 1779277771,
+          "track": "Unlike Anything",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "dfaece88-0fca-44e4-bc2b-149d26d11b73",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779277771
+        },
+        {
+          "id": 11139,
+          "date": "2026-05-20",
+          "timestamp": 1779277937,
+          "track": "I Don't Like Music",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "b96e1d25-4654-432c-99bd-73d7344c7dee",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779277937
+        },
+        {
+          "id": 11140,
+          "date": "2026-05-20",
+          "timestamp": 1779278141,
+          "track": "Moon 2",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "2ab0f173-3de9-495b-a615-5175ac94509b",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779278141
+        },
+        {
+          "id": 11141,
+          "date": "2026-05-20",
+          "timestamp": 1779278245,
+          "track": "Telephones",
+          "artist": "VACATIONS",
+          "album": "Changes",
+          "mbid": "299b9bba-486a-4a66-ae4f-639ebafc76b6",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779278245
+        },
+        {
+          "id": 11142,
+          "date": "2026-05-20",
+          "timestamp": 1779278318,
+          "track": "What Matters Most",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "398ec08e-5a74-41c5-bead-b8e8d9bab33d",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779278318
+        },
+        {
+          "id": 11143,
+          "date": "2026-05-20",
+          "timestamp": 1779278441,
+          "track": "I Come With Mud",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "345afeb4-50bb-4e58-ada6-570d3803bef0",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779278441
+        },
+        {
+          "id": 11144,
+          "date": "2026-05-20",
+          "timestamp": 1779278740,
+          "track": "Blondie",
+          "artist": "Bladee",
+          "album": "Blondie",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779278740
+        },
+        {
+          "id": 11145,
+          "date": "2026-05-20",
+          "timestamp": 1779278960,
+          "track": "Together (feat. Nikki Nair, Jessy Lanza & Prentiss)",
+          "artist": "The Avalanches",
+          "album": "Together (feat. Nikki Nair, Jessy Lanza & Prentiss)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779278960
+        },
+        {
+          "id": 11146,
+          "date": "2026-05-20",
+          "timestamp": 1779279159,
+          "track": "Tinker Tailor Soldier Sailor Rich Man Poor Man Beggar Man Thief",
+          "artist": "Radiohead",
+          "album": "A Moon Shaped Pool",
+          "mbid": "6aee680b-d004-45f6-a52b-8c76183d8741",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779279159
+        },
+        {
+          "id": 11147,
+          "date": "2026-05-20",
+          "timestamp": 1779279463,
+          "track": "Yale",
+          "artist": "Ken Carson",
+          "album": "Teen X",
+          "mbid": "25b186b2-9248-4267-9898-ea25c7572535",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779279463
+        },
+        {
+          "id": 11148,
+          "date": "2026-05-20",
+          "timestamp": 1779279620,
+          "track": "A Different Feeling",
+          "artist": "The Avalanches",
+          "album": "Since I Left You (20th Anniversary Deluxe Edition)",
+          "mbid": "06ea3662-00c9-46bc-b047-5cd29e8acc4b",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779279620
+        },
+        {
+          "id": 11149,
+          "date": "2026-05-20",
+          "timestamp": 1779279883,
+          "track": "GONE, GONE / THANK YOU",
+          "artist": "Tyler, The Creator",
+          "album": "IGOR",
+          "mbid": "0466193a-074b-4938-a7c1-bd507c67fcd6",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779279883
+        },
+        {
+          "id": 11150,
+          "date": "2026-05-20",
+          "timestamp": 1779280258,
+          "track": "That Joke Isn't Funny Anymore",
+          "artist": "The Smiths",
+          "album": "Meat Is Murder",
+          "mbid": "612c10f2-f884-37c4-92e9-6705553079a2",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779280258
+        },
+        {
+          "id": 11151,
+          "date": "2026-05-20",
+          "timestamp": 1779280557,
+          "track": "7 years",
+          "artist": "Charli xcx",
+          "album": "how i'm feeling now",
+          "mbid": "0daeb0ab-b01e-42f0-93fe-fde72b5415bc",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779280557
+        },
+        {
+          "id": 11152,
+          "date": "2026-05-20",
+          "timestamp": 1779280752,
+          "track": "I Can't",
+          "artist": "Radiohead",
+          "album": "Pablo Honey",
+          "mbid": "ad6745dc-e05d-3ce7-9e51-637f6e59610d",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779280752
+        },
+        {
+          "id": 11153,
+          "date": "2026-05-20",
+          "timestamp": 1779284144,
+          "track": "Love Song",
+          "artist": "Sara Bareilles",
+          "album": "Little Voice",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779284144
+        },
+        {
+          "id": 11154,
+          "date": "2026-05-20",
+          "timestamp": 1779284402,
+          "track": "Blow Me",
+          "artist": "P!nk",
+          "album": "The Truth About Love",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779284402
+        },
+        {
+          "id": 11155,
+          "date": "2026-05-20",
+          "timestamp": 1779284659,
+          "track": "Kiss Me",
+          "artist": "Sixpence None the Richer",
+          "album": "Sixpence None the Richer",
+          "mbid": "627f4f5e-d867-435b-90bd-a16e4a8e546f",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779284659
+        },
+        {
+          "id": 11156,
+          "date": "2026-05-20",
+          "timestamp": 1779284874,
+          "track": "Nobody New",
+          "artist": "The Marías",
+          "album": "Back To Me",
+          "mbid": "11bb6328-85a5-425c-8db3-bffe469ae057",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779284874
+        },
+        {
+          "id": 11157,
+          "date": "2026-05-20",
+          "timestamp": 1779285119,
+          "track": "Nobody",
+          "artist": "Wonder Girls",
+          "album": "The Wonder Years - Trilogy",
+          "mbid": "4446ea41-74f0-3f6c-a669-c0af41dfba31",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779285119
+        },
+        {
+          "id": 11158,
+          "date": "2026-05-20",
+          "timestamp": 1779285194,
+          "track": "I Saw You",
+          "artist": "Fred again..",
+          "album": "ten days",
+          "mbid": "c6749f22-f357-4418-8249-b2f6b37349ed",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779285194
+        },
+        {
+          "id": 11159,
+          "date": "2026-05-20",
+          "timestamp": 1779285354,
+          "track": "Together (feat. Nikki Nair, Jessy Lanza & Prentiss)",
+          "artist": "The Avalanches",
+          "album": "Together (feat. Nikki Nair, Jessy Lanza & Prentiss)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779285354
+        },
+        {
+          "id": 11160,
+          "date": "2026-05-20",
+          "timestamp": 1779285582,
+          "track": "Sailor Song",
+          "artist": "Gigi Perez",
+          "album": "Sailor Song",
+          "mbid": "4de2fca3-e37a-4399-b121-9c4a6cb298b5",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779285582
+        },
+        {
+          "id": 11161,
+          "date": "2026-05-20",
+          "timestamp": 1779285793,
+          "track": "CHIHIRO",
+          "artist": "Billie Eilish",
+          "album": "HIT ME HARD AND SOFT",
+          "mbid": "4bcb550c-9160-45ed-9cbe-d6771ad96c9d",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779285793
+        },
+        {
+          "id": 11162,
+          "date": "2026-05-20",
+          "timestamp": 1779286097,
+          "track": "tejano blue",
+          "artist": "Cigarettes After Sex",
+          "album": "X's",
+          "mbid": "7a69da33-dfd8-4ba1-ad66-7799ae0d0a43",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779286097
+        },
+        {
+          "id": 11163,
+          "date": "2026-05-20",
+          "timestamp": 1779286345,
+          "track": "Master of None",
+          "artist": "Beach House",
+          "album": "Beach House",
+          "mbid": "7737b200-5891-4f48-b363-0aea571e8fd3",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779286345
+        },
+        {
+          "id": 11164,
+          "date": "2026-05-20",
+          "timestamp": 1779286543,
+          "track": "Superstar",
+          "artist": "Beach House",
+          "album": "Once Twice Melody",
+          "mbid": "5d66ab14-1ed0-423c-b4b2-892f3c1885e0",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779286543
+        },
+        {
+          "id": 11165,
+          "date": "2026-05-20",
+          "timestamp": 1779286912,
+          "track": "Pearls",
+          "artist": "Sade",
+          "album": "Love Deluxe",
+          "mbid": "07b65362-2687-3917-808b-0cbda25df955",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779286912
+        },
+        {
+          "id": 11166,
+          "date": "2026-05-20",
+          "timestamp": 1779287186,
+          "track": "I Wanted You To Feel The Same",
+          "artist": "The Radio Dept.",
+          "album": "Pet Grief",
+          "mbid": "21657a41-950c-365b-8fa4-67e3ab35bece",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779287186
+        },
+        {
+          "id": 11167,
+          "date": "2026-05-20",
+          "timestamp": 1779287337,
+          "track": "Lies in the eyes of love",
+          "artist": "Part Time",
+          "album": "Lies in the eyes of love",
+          "mbid": "0f0cd0e9-3301-47e7-90c0-15544517d623",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779287337
+        },
+        {
+          "id": 11168,
+          "date": "2026-05-20",
+          "timestamp": 1779287534,
+          "track": "Pyramids",
+          "artist": "Frank Ocean",
+          "album": "channel ORANGE",
+          "mbid": "03c9b6e1-46cb-3860-8389-d871fe7603ce",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779287534
+        },
+        {
+          "id": 11169,
+          "date": "2026-05-20",
+          "timestamp": 1779288128,
+          "track": "Days of Candy",
+          "artist": "Beach House",
+          "album": "Depression Cherry",
+          "mbid": "0195caf8-17f4-4311-a00e-e1b716e647c5",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779288128
+        },
+        {
+          "id": 11170,
+          "date": "2026-05-20",
+          "timestamp": 1779288504,
+          "track": "kisses",
+          "artist": "Slowdive",
+          "album": "everything is alive",
+          "mbid": "ea346317-7114-42a8-b16d-dd41d5f70bd4",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779288504
+        },
+        {
+          "id": 11171,
+          "date": "2026-05-20",
+          "timestamp": 1779288742,
+          "track": "Sunday",
+          "artist": "The Cranberries",
+          "album": "Everybody Else Is Doing It, So Why Can't We?",
+          "mbid": "c7409839-01a8-4d83-83ca-a192913b2aa8",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779288742
+        },
+        {
+          "id": 11172,
+          "date": "2026-05-20",
+          "timestamp": 1779288953,
+          "track": "Well I Wonder - 2011 Remaster",
+          "artist": "The Smiths",
+          "album": "Meat Is Murder",
+          "mbid": "b84a9bc6-0894-4031-a562-6fc42fba6119",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779288953
+        },
+        {
+          "id": 11173,
+          "date": "2026-05-20",
+          "timestamp": 1779289193,
+          "track": "Night Drive",
+          "artist": "Part Time",
+          "album": "P.D.A.",
+          "mbid": "8fb4d1a5-f04b-445f-a3a8-b1b861b82c26",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779289193
+        },
+        {
+          "id": 11174,
+          "date": "2026-05-20",
+          "timestamp": 1779289418,
+          "track": "Wishes",
+          "artist": "Beach House",
+          "album": "Bloom",
+          "mbid": "84e923fd-50f5-38a2-9065-d0df59067ec9",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779289418
+        },
+        {
+          "id": 11175,
+          "date": "2026-05-20",
+          "timestamp": 1779289936,
+          "track": "Sailor Song",
+          "artist": "Gigi Perez",
+          "album": "Sailor Song",
+          "mbid": "4de2fca3-e37a-4399-b121-9c4a6cb298b5",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779289936
+        },
+        {
+          "id": 11176,
+          "date": "2026-05-20",
+          "timestamp": 1779290147,
+          "track": "Duvet",
+          "artist": "bôa",
+          "album": "Twilight",
+          "mbid": "3f320603-c50a-4d6f-9b64-55f04528046a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779290147
+        },
+        {
+          "id": 11177,
+          "date": "2026-05-20",
+          "timestamp": 1779290283,
+          "track": "Good Luck, Babe!",
+          "artist": "Chappell Roan",
+          "album": "Good Luck, Babe!",
+          "mbid": "9d97dc85-01e2-400e-8a3f-40cd4790de59",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779290283
+        },
+        {
+          "id": 11178,
+          "date": "2026-05-20",
+          "timestamp": 1779290501,
+          "track": "Girl, so confusing featuring lorde",
+          "artist": "Charli xcx",
+          "album": "Brat and it’s completely different but also still brat",
+          "mbid": "ee3ed19e-0fcd-46b2-8bcb-5957a39ef3ae",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779290501
+        },
+        {
+          "id": 11179,
+          "date": "2026-05-20",
+          "timestamp": 1779290708,
+          "track": "I’m your girl right?",
+          "artist": "Tove Lo",
+          "album": "I’m your girl right?",
+          "mbid": "5a5730f2-741b-4e3e-b4c8-ef8fe0626cf6",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779290708
+        },
+        {
+          "id": 11180,
+          "date": "2026-05-20",
+          "timestamp": 1779290877,
+          "track": "Lovefool",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779290877
+        },
+        {
+          "id": 11181,
+          "date": "2026-05-20",
+          "timestamp": 1779291091,
+          "track": "Habits (Stay High)",
+          "artist": "Tove Lo",
+          "album": "Queen of the Clouds",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779291091
+        },
+        {
+          "id": 11182,
+          "date": "2026-05-20",
+          "timestamp": 1779291299,
+          "track": "Never Be Like You (feat. Kai)",
+          "artist": "Flume",
+          "album": "Skin",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779291299
+        },
+        {
+          "id": 11183,
+          "date": "2026-05-20",
+          "timestamp": 1779291535,
+          "track": "I Follow Rivers - The Magician Remix",
+          "artist": "Lykke Li",
+          "album": "Wounded Rhymes (Anniversary Edition)",
+          "mbid": "8ec7848b-e266-4abc-99bf-b651206762ad",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779291535
+        },
+        {
+          "id": 11184,
+          "date": "2026-05-20",
+          "timestamp": 1779291815,
+          "track": "Wide Awake",
+          "artist": "Katy Perry",
+          "album": "Teenage Dream: The Complete Confection",
+          "mbid": "2c2b2fff-b527-4cfd-90ae-41647a7d2d35",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779291815
+        },
+        {
+          "id": 11185,
+          "date": "2026-05-20",
+          "timestamp": 1779292036,
+          "track": "Clarity",
+          "artist": "Zedd",
+          "album": "Clarity",
+          "mbid": "52414171-1ae5-4972-abbb-d9317a03fd0e",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779292036
+        },
+        {
+          "id": 11186,
+          "date": "2026-05-20",
+          "timestamp": 1779292308,
+          "track": "Unwritten",
+          "artist": "Natasha Bedingfield",
+          "album": "Unwritten",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779292308
+        },
+        {
+          "id": 11187,
+          "date": "2026-05-20",
+          "timestamp": 1779292568,
+          "track": "Talking to the Moon",
+          "artist": "Bruno Mars",
+          "album": "Doo-Wops & Hooligans",
+          "mbid": "0f17edfe-4a37-490d-a720-d8b482490d23",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779292568
+        },
+        {
+          "id": 11188,
+          "date": "2026-05-20",
+          "timestamp": 1779293170,
+          "track": "Sulfur Surfer",
+          "artist": "Bladee",
+          "album": "Sulfur Surfer",
+          "mbid": "2f9d6daf-c815-474d-a5a1-d13ef7198422",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779293170
+        },
+        {
+          "id": 11189,
+          "date": "2026-05-20",
+          "timestamp": 1779293377,
+          "track": "Versailles Flow",
+          "artist": "Bladee",
+          "album": "Sulfur Surfer",
+          "mbid": "3f8dd98c-0071-49ff-a37f-52bc35465437",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 2,
+          "last_ts": 1779293639
+        },
+        {
+          "id": 11191,
+          "date": "2026-05-20",
+          "timestamp": 1779298099,
+          "track": "Sure Thing",
+          "artist": "Miguel",
+          "album": "All I Want Is You",
+          "mbid": "2fe8a364-5584-4854-90f0-a17a55f5e59a",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779298099
+        },
+        {
+          "id": 11192,
+          "date": "2026-05-20",
+          "timestamp": 1779298296,
+          "track": "Kiss Of Life",
+          "artist": "Sade",
+          "album": "The Best of Sade",
+          "mbid": "00408f71-1551-336b-8398-0e3805ca3d10",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779298296
+        },
+        {
+          "id": 11193,
+          "date": "2026-05-20",
+          "timestamp": 1779298548,
+          "track": "Kiss It Better",
+          "artist": "Rihanna",
+          "album": "ANTI (Deluxe)",
+          "mbid": "075c6f13-4f0a-4342-b11b-3ca93ed57fb9",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779298548
+        },
+        {
+          "id": 11194,
+          "date": "2026-05-20",
+          "timestamp": 1779298801,
+          "track": "butterflies.",
+          "artist": "Brent Faiyaz",
+          "album": "ICON",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779298801
+        },
+        {
+          "id": 11195,
+          "date": "2026-05-20",
+          "timestamp": 1779299050,
+          "track": "All I Want Is You (feat. J. Cole)",
+          "artist": "Miguel",
+          "album": "All I Want Is You",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779299050
+        },
+        {
+          "id": 11196,
+          "date": "2026-05-20",
+          "timestamp": 1779299402,
+          "track": "Paul's Theme",
+          "artist": "Men I Trust",
+          "album": "Equus Asinus",
+          "mbid": "341f4941-d8f1-4613-a244-13b068250176",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 24,
+          "last_ts": 1779307457
+        },
+        {
+          "id": 11220,
+          "date": "2026-05-20",
+          "timestamp": 1779307716,
+          "track": "Let Me Go",
+          "artist": "Daniel Caesar",
+          "album": "NEVER ENOUGH (Bonus Version)",
+          "mbid": "cf63a0de-a055-4f2a-bdbd-52942fb614a2",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779307716
+        },
+        {
+          "id": 11221,
+          "date": "2026-05-20",
+          "timestamp": 1779307931,
+          "track": "OPEN UP",
+          "artist": "Daniel Caesar",
+          "album": "CASE STUDY 01",
+          "mbid": "0ed096d0-5155-4545-8058-b528784b9ae0",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779307931
+        },
+        {
+          "id": 11222,
+          "date": "2026-05-20",
+          "timestamp": 1779314018,
+          "track": "Witches",
+          "artist": "Alice Phoebe Lou",
+          "album": "Witches",
+          "mbid": "61fc6912-0785-402e-bfd8-388f28157f62",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779314018
+        },
+        {
+          "id": 11223,
+          "date": "2026-05-20",
+          "timestamp": 1779314212,
+          "track": "Silly",
+          "artist": "Alice Phoebe Lou",
+          "album": "Child's Play",
+          "mbid": "b2c7329f-241f-4438-a4d6-5d605cf2ad59",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779314212
+        },
+        {
+          "id": 11224,
+          "date": "2026-05-20",
+          "timestamp": 1779314324,
+          "track": "Falling Apart",
+          "artist": "Slow Pulp",
+          "album": "Moveys",
+          "mbid": "5a3898eb-0e26-4a57-997d-07837a44380f",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779314324
+        },
+        {
+          "id": 11225,
+          "date": "2026-05-20",
+          "timestamp": 1779314490,
+          "track": "Spring",
+          "artist": "Saint Etienne",
+          "album": "Foxbase Alpha",
+          "mbid": "3655ca50-aa58-3d22-afef-8b60eb132876",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779314490
+        },
+        {
+          "id": 11226,
+          "date": "2026-05-20",
+          "timestamp": 1779314715,
+          "track": "Changed",
+          "artist": "Cornelia Murr",
+          "album": "Changed",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779314715
+        },
+        {
+          "id": 11227,
+          "date": "2026-05-20",
+          "timestamp": 1779314926,
+          "track": "If You Love Her",
+          "artist": "Tokyo Tea Room",
+          "album": "No Rush",
+          "mbid": "1c2c2a4d-fdd4-4188-bf61-c3578f0187f6",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779314926
+        },
+        {
+          "id": 11228,
+          "date": "2026-05-20",
+          "timestamp": 1779315091,
+          "track": "Lovesick",
+          "artist": "Alice Phoebe Lou",
+          "album": "Glow",
+          "mbid": "d0ac2df2-cb0c-4a53-9e3e-80964f826b7e",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779315091
+        },
+        {
+          "id": 11229,
+          "date": "2026-05-20",
+          "timestamp": 1779315347,
+          "track": "Dream Free",
+          "artist": "Sam Evian",
+          "album": "Time To Melt",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779315347
+        },
+        {
+          "id": 11230,
+          "date": "2026-05-20",
+          "timestamp": 1779316414,
+          "track": "BLEACH",
+          "artist": "BROCKHAMPTON",
+          "album": "SATURATION III",
+          "mbid": "f3c6605f-4583-4b1e-b25a-f5317e3197c5",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779316414
+        },
+        {
+          "id": 11231,
+          "date": "2026-05-20",
+          "timestamp": 1779318288,
+          "track": "Silly",
+          "artist": "Alice Phoebe Lou",
+          "album": "Child's Play",
+          "mbid": "b2c7329f-241f-4438-a4d6-5d605cf2ad59",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 3,
+          "last_ts": 1779318509
+        },
+        {
+          "id": 11234,
+          "date": "2026-05-20",
+          "timestamp": 1779318616,
+          "track": "Feels Like We Only Go Backwards",
+          "artist": "Tame Impala",
+          "album": "Lonerism",
+          "mbid": "48822138-f321-441a-9284-356e08902c0c",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779318616
+        }
+      ],
+      "blocks": [
+        {
+          "id": 282,
+          "date": "2026-05-20",
+          "label": "☀️",
+          "color_key": "coral",
+          "start_ts": 1779273599,
+          "end_ts": 1779277771
+        },
+        {
+          "id": 283,
+          "date": "2026-05-20",
+          "label": "debugging hell",
+          "color_key": "#ff5f81",
+          "start_ts": 1779277937,
+          "end_ts": 1779288128
+        },
+        {
+          "id": 284,
+          "date": "2026-05-20",
+          "label": "commute ",
+          "color_key": "teal",
+          "start_ts": 1779288504,
+          "end_ts": 1779293377
+        },
+        {
+          "id": 285,
+          "date": "2026-05-20",
+          "label": "walk 2 main",
+          "color_key": "blue",
+          "start_ts": 1779298099,
+          "end_ts": 1779299050
+        },
+        {
+          "id": 286,
+          "date": "2026-05-20",
+          "label": "study",
+          "color_key": "purple",
+          "start_ts": 1779299402,
+          "end_ts": 1779299402
+        },
+        {
+          "id": 287,
+          "date": "2026-05-20",
+          "label": "waiting for 390",
+          "color_key": "#d0a9ec",
+          "start_ts": 1779307716,
+          "end_ts": 1779307931
+        },
+        {
+          "id": 288,
+          "date": "2026-05-20",
+          "label": "commute home",
+          "color_key": "#f183ff",
+          "start_ts": 1779314018,
+          "end_ts": 1779316414
+        },
+        {
+          "id": 289,
+          "date": "2026-05-20",
+          "label": "cleaning (after din)",
+          "color_key": "#671372",
+          "start_ts": 1779318288,
+          "end_ts": 1779318616
+        }
+      ],
+      "notes": "happy hump day! the avalanches' latest release played the biggest role in making my hump day happy: to me,\"together\" is like hugging your friend you haven't seen in eons then going on a sunset drive down a street lined with sweet magnolia trees with all the windows down on a friday night. i'd like to think that it evened out the blue tunes i started my day with (i wish i didn't feel most in my element when listening to whispy, wistful songs). switched my default studying song (\"dearly beloved\" from kingdom hearts 2) for \"paul's theme\" by men i trust. equus asinus is the only album i consider perfect (i don't even consider submarine perfect...) and i wish i could listen to all of it for the first time."
+    },
+    "2026-05-21": {
+      "date": "2026-05-21",
+      "synced": true,
+      "stats": {
+        "total_scrobbles": 42,
+        "unique_tracks": 42,
+        "unique_artists": 20,
+        "unique_albums": 27,
+        "top_track": "Lovefool",
+        "top_track_artist": "The Cardigans",
+        "top_track_count": 1,
+        "top_album": "First Band On The Moon (Remastered)",
+        "top_album_artist": "The Cardigans",
+        "peak_hour": 9,
+        "peak_hour_label": "9am",
+        "new_artists": [
+          "Max Graef",
+          "The Cyrkle",
+          "Candy Claws",
+          "Piero Piccioni",
+          "Cibo Matto",
+          "Sugar Plant",
+          "The Sugarcubes"
+        ],
+        "new_tracks": [
+          {
+            "track": "Cloudy Sky",
+            "artist": "The Cardigans"
+          },
+          {
+            "track": "In the Afternoon",
+            "artist": "The Cardigans"
+          },
+          {
+            "track": "Black Letter Day",
+            "artist": "The Cardigans"
+          },
+          {
+            "track": "through - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "Souvenir dItalie",
+            "artist": "Lelio Luttazzi"
+          },
+          {
+            "track": "Wood Cabin",
+            "artist": "Saint Etienne"
+          },
+          {
+            "track": "Split Screen",
+            "artist": "Saint Etienne"
+          },
+          {
+            "track": "Sun",
+            "artist": "Margo Guryan"
+          },
+          {
+            "track": "Happy Meal II",
+            "artist": "The Cardigans"
+          },
+          {
+            "track": "Jazz 104",
+            "artist": "Max Graef"
+          },
+          {
+            "track": "Rilkean Heart",
+            "artist": "Cocteau Twins"
+          },
+          {
+            "track": "Decoy",
+            "artist": "Fievel Is Glauque"
+          },
+          {
+            "track": "honeydew blue - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "Those Eyes, That Mouth",
+            "artist": "Cocteau Twins"
+          },
+          {
+            "track": "The Dream Team",
+            "artist": "Fievel Is Glauque"
+          },
+          {
+            "track": "Bring Me to Silence",
+            "artist": "Fievel Is Glauque"
+          },
+          {
+            "track": "la pa ti ta - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "everybody knows ’98 aoringo - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "frozen (snow, snow, snow) - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "The Minx",
+            "artist": "The Cyrkle"
+          },
+          {
+            "track": "Infinite Bliss",
+            "artist": "Maston"
+          },
+          {
+            "track": "tulipa (asamoya) - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "Where I Found You (One Star)",
+            "artist": "Candy Claws"
+          },
+          {
+            "track": "sleepy - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "Tears in Brasil",
+            "artist": "Piero Piccioni"
+          },
+          {
+            "track": "Boplicity",
+            "artist": "Miles Davis"
+          },
+          {
+            "track": "Jeru",
+            "artist": "Miles Davis"
+          },
+          {
+            "track": "Look To The Sky",
+            "artist": "Antônio Carlos Jobim"
+          },
+          {
+            "track": "Aspetto ancora un giorno",
+            "artist": "Piero Piccioni"
+          },
+          {
+            "track": "Cico Buff",
+            "artist": "Cocteau Twins"
+          },
+          {
+            "track": "Flowers",
+            "artist": "Cibo Matto"
+          },
+          {
+            "track": "A Rain Discretion",
+            "artist": "Sugar Plant"
+          },
+          {
+            "track": "Deus",
+            "artist": "The Sugarcubes"
+          },
+          {
+            "track": "rainy poppy field - Remastered",
+            "artist": "800 Cherries"
+          },
+          {
+            "track": "Choke",
+            "artist": "The Cardigans"
+          },
+          {
+            "track": "Great Divide",
+            "artist": "The Cardigans"
+          },
+          {
+            "track": "Iron Man",
+            "artist": "The Cardigans"
+          }
+        ],
+        "new_albums": [
+          {
+            "album": "Emmerdale (Remastered)",
+            "artist": "The Cardigans"
+          },
+          {
+            "album": "Le mie preferite",
+            "artist": "Lelio Luttazzi"
+          },
+          {
+            "album": "Good Humor",
+            "artist": "Saint Etienne"
+          },
+          {
+            "album": "Rivers of the Red Planet",
+            "artist": "Max Graef"
+          },
+          {
+            "album": "God’s Trashmen Sent to Right the Mess",
+            "artist": "Fievel Is Glauque"
+          },
+          {
+            "album": "romantico (2022 Remaster)",
+            "artist": "800 Cherries"
+          },
+          {
+            "album": "Love's Easy Tears",
+            "artist": "Cocteau Twins"
+          },
+          {
+            "album": "The Minx (Original Soundtrack)",
+            "artist": "The Cyrkle"
+          },
+          {
+            "album": "opuscula (2022 Remaster)",
+            "artist": "800 Cherries"
+          },
+          {
+            "album": "Ceres & Calypso in the Deep Time",
+            "artist": "Candy Claws"
+          },
+          {
+            "album": "800 cherries (2022 Remaster)",
+            "artist": "800 Cherries"
+          },
+          {
+            "album": "Camille 2000 (Original Motion Picture Soundtrack)",
+            "artist": "Piero Piccioni"
+          },
+          {
+            "album": "Wave",
+            "artist": "Antônio Carlos Jobim"
+          },
+          {
+            "album": "Quelle strane occasioni",
+            "artist": "Piero Piccioni"
+          },
+          {
+            "album": "Stereotype A",
+            "artist": "Cibo Matto"
+          },
+          {
+            "album": "dry fruit",
+            "artist": "Sugar Plant"
+          },
+          {
+            "album": "Life's Too Good",
+            "artist": "The Sugarcubes"
+          }
+        ]
+      },
+      "scrobbles": [
+        {
+          "id": 11057,
+          "date": "2026-05-21",
+          "timestamp": 1779372065,
+          "track": "Lovefool",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779372065
+        },
+        {
+          "id": 11058,
+          "date": "2026-05-21",
+          "timestamp": 1779372258,
+          "track": "Step On Me",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "1f2c4450-9731-4f08-8ab0-920fede6c56f",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779372258
+        },
+        {
+          "id": 11059,
+          "date": "2026-05-21",
+          "timestamp": 1779372489,
+          "track": "Cloudy Sky",
+          "artist": "The Cardigans",
+          "album": "Emmerdale (Remastered)",
+          "mbid": "22adc707-cfa0-3549-a2c9-e6b5c2068139",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779372489
+        },
+        {
+          "id": 11060,
+          "date": "2026-05-21",
+          "timestamp": 1779372737,
+          "track": "In the Afternoon",
+          "artist": "The Cardigans",
+          "album": "Emmerdale (Remastered)",
+          "mbid": "4f1b1c15-3a16-34d4-889b-5c8fe4cd006f",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779372737
+        },
+        {
+          "id": 11061,
+          "date": "2026-05-21",
+          "timestamp": 1779372988,
+          "track": "Black Letter Day",
+          "artist": "The Cardigans",
+          "album": "Emmerdale (Remastered)",
+          "mbid": "06ab4c8c-9f57-3c3b-b2d7-7eef8c20814c",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779372988
+        },
+        {
+          "id": 11062,
+          "date": "2026-05-21",
+          "timestamp": 1779373271,
+          "track": "Only When I",
+          "artist": "Alice Phoebe Lou",
+          "album": "Glow",
+          "mbid": "7396daf3-1286-46a0-aaa0-6825060739d8",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779373271
+        },
+        {
+          "id": 11063,
+          "date": "2026-05-21",
+          "timestamp": 1779373502,
+          "track": "through - Remastered",
+          "artist": "800 Cherries",
+          "album": "Romantico",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779373502
+        },
+        {
+          "id": 11064,
+          "date": "2026-05-21",
+          "timestamp": 1779373850,
+          "track": "Souvenir dItalie",
+          "artist": "Lelio Luttazzi",
+          "album": "Le mie preferite",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779373850
+        },
+        {
+          "id": 11065,
+          "date": "2026-05-21",
+          "timestamp": 1779373923,
+          "track": "Histoire d'un soir (Bye bye les galères) - Blutch Radio Edit",
+          "artist": "Bibi Flash",
+          "album": "Histoire d'un soir (Bye bye les galères) [Blutch Edit]",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779373923
+        },
+        {
+          "id": 11066,
+          "date": "2026-05-21",
+          "timestamp": 1779374104,
+          "track": "Wood Cabin",
+          "artist": "Saint Etienne",
+          "album": "Good Humor",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779374104
+        },
+        {
+          "id": 11067,
+          "date": "2026-05-21",
+          "timestamp": 1779374351,
+          "track": "Split Screen",
+          "artist": "Saint Etienne",
+          "album": "Good Humor",
+          "mbid": "09f6d70e-28f9-3b5e-99a0-d1f0ca545bbb",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779374351
+        },
+        {
+          "id": 11068,
+          "date": "2026-05-21",
+          "timestamp": 1779374556,
+          "track": "Sun",
+          "artist": "Margo Guryan",
+          "album": "27 Demos",
+          "mbid": "da85c765-b904-3652-85f9-879d8f5b024d",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779374556
+        },
+        {
+          "id": 11069,
+          "date": "2026-05-21",
+          "timestamp": 1779374740,
+          "track": "Happy Meal II",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "091f2bbd-ce83-3f1a-a05e-f980fde457df",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779374740
+        },
+        {
+          "id": 11070,
+          "date": "2026-05-21",
+          "timestamp": 1779374895,
+          "track": "Jazz 104",
+          "artist": "Max Graef",
+          "album": "Rivers of the Red Planet",
+          "mbid": "f60308a0-8348-47b0-a476-d786f1dbf3d7",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779374895
+        },
+        {
+          "id": 11071,
+          "date": "2026-05-21",
+          "timestamp": 1779374964,
+          "track": "Rilkean Heart",
+          "artist": "Cocteau Twins",
+          "album": "Milk & Kisses",
+          "mbid": "1710a8b2-ab4c-3f2b-a350-54a3306fadce",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779374964
+        },
+        {
+          "id": 11072,
+          "date": "2026-05-21",
+          "timestamp": 1779375210,
+          "track": "Decoy",
+          "artist": "Fievel Is Glauque",
+          "album": "God’s Trashmen Sent to Right the Mess",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779375210
+        },
+        {
+          "id": 11073,
+          "date": "2026-05-21",
+          "timestamp": 1779375333,
+          "track": "honeydew blue - Remastered",
+          "artist": "800 Cherries",
+          "album": "romantico (2022 Remaster)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779375333
+        },
+        {
+          "id": 11074,
+          "date": "2026-05-21",
+          "timestamp": 1779375551,
+          "track": "Those Eyes, That Mouth",
+          "artist": "Cocteau Twins",
+          "album": "Love's Easy Tears",
+          "mbid": "0030e68d-1d9f-4e71-adfa-048be944b7eb",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779375551
+        },
+        {
+          "id": 11075,
+          "date": "2026-05-21",
+          "timestamp": 1779375770,
+          "track": "The Dream Team",
+          "artist": "Fievel Is Glauque",
+          "album": "God’s Trashmen Sent to Right the Mess",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779375770
+        },
+        {
+          "id": 11076,
+          "date": "2026-05-21",
+          "timestamp": 1779375860,
+          "track": "Bring Me to Silence",
+          "artist": "Fievel Is Glauque",
+          "album": "God’s Trashmen Sent to Right the Mess",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779375860
+        },
+        {
+          "id": 11077,
+          "date": "2026-05-21",
+          "timestamp": 1779375970,
+          "track": "la pa ti ta - Remastered",
+          "artist": "800 Cherries",
+          "album": "romantico (2022 Remaster)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779375970
+        },
+        {
+          "id": 11078,
+          "date": "2026-05-21",
+          "timestamp": 1779376167,
+          "track": "everybody knows ’98 aoringo - Remastered",
+          "artist": "800 Cherries",
+          "album": "romantico (2022 Remaster)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779376167
+        },
+        {
+          "id": 11079,
+          "date": "2026-05-21",
+          "timestamp": 1779376385,
+          "track": "frozen (snow, snow, snow) - Remastered",
+          "artist": "800 Cherries",
+          "album": "romantico (2022 Remaster)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779376385
+        },
+        {
+          "id": 11080,
+          "date": "2026-05-21",
+          "timestamp": 1779376560,
+          "track": "Boy With The Bright Eyes",
+          "artist": "The Shermans",
+          "album": "Happiness Is Toy Shaped",
+          "mbid": "2e119ba1-ebf1-3297-adeb-5b8dee0c91f0",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779376560
+        },
+        {
+          "id": 11081,
+          "date": "2026-05-21",
+          "timestamp": 1779376725,
+          "track": "The Minx",
+          "artist": "The Cyrkle",
+          "album": "The Minx (Original Soundtrack)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779376725
+        },
+        {
+          "id": 11082,
+          "date": "2026-05-21",
+          "timestamp": 1779376876,
+          "track": "Infinite Bliss",
+          "artist": "Maston",
+          "album": "Tulips",
+          "mbid": "0dff3c0e-7290-43e5-9261-ca337f407196",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779376876
+        },
+        {
+          "id": 11083,
+          "date": "2026-05-21",
+          "timestamp": 1779376970,
+          "track": "tulipa (asamoya) - Remastered",
+          "artist": "800 Cherries",
+          "album": "opuscula (2022 Remaster)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779376970
+        },
+        {
+          "id": 11084,
+          "date": "2026-05-21",
+          "timestamp": 1779377046,
+          "track": "Where I Found You (One Star)",
+          "artist": "Candy Claws",
+          "album": "Ceres & Calypso in the Deep Time",
+          "mbid": "c3f4f8b0-2814-475a-a02b-d6b0b253efc7",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779377046
+        },
+        {
+          "id": 11085,
+          "date": "2026-05-21",
+          "timestamp": 1779377238,
+          "track": "sleepy - Remastered",
+          "artist": "800 Cherries",
+          "album": "800 cherries (2022 Remaster)",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779377238
+        },
+        {
+          "id": 11086,
+          "date": "2026-05-21",
+          "timestamp": 1779377446,
+          "track": "Tears in Brasil",
+          "artist": "Piero Piccioni",
+          "album": "Camille 2000 (Original Motion Picture Soundtrack)",
+          "mbid": "347ee725-3bc6-3aaf-8521-db7f750c9b20",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779377446
+        },
+        {
+          "id": 11087,
+          "date": "2026-05-21",
+          "timestamp": 1779377613,
+          "track": "Boplicity",
+          "artist": "Miles Davis",
+          "album": "Birth of the Cool",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779377613
+        },
+        {
+          "id": 11088,
+          "date": "2026-05-21",
+          "timestamp": 1779377796,
+          "track": "Jeru",
+          "artist": "Miles Davis",
+          "album": "Birth of the Cool",
+          "mbid": "09d9e543-23ae-399a-a4cc-45436487e39c",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779377796
+        },
+        {
+          "id": 11089,
+          "date": "2026-05-21",
+          "timestamp": 1779382568,
+          "track": "Look To The Sky",
+          "artist": "Antônio Carlos Jobim",
+          "album": "Wave",
+          "mbid": "a5c11da7-7523-4833-b431-2fa836428040",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779382568
+        },
+        {
+          "id": 11090,
+          "date": "2026-05-21",
+          "timestamp": 1779382709,
+          "track": "Aspetto ancora un giorno",
+          "artist": "Piero Piccioni",
+          "album": "Quelle strane occasioni",
+          "mbid": "b610f46a-2561-44aa-a3c8-28b6bb084a27",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779382709
+        },
+        {
+          "id": 11091,
+          "date": "2026-05-21",
+          "timestamp": 1779382857,
+          "track": "Cico Buff",
+          "artist": "Cocteau Twins",
+          "album": "Blue Bell Knoll",
+          "mbid": "24e631fc-48e5-4ab3-a988-5f43cc3d1d33",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779382857
+        },
+        {
+          "id": 11092,
+          "date": "2026-05-21",
+          "timestamp": 1779383084,
+          "track": "Flowers",
+          "artist": "Cibo Matto",
+          "album": "Stereotype A",
+          "mbid": "53ada13b-d8ef-329a-9888-1cff89271d86",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779383084
+        },
+        {
+          "id": 11093,
+          "date": "2026-05-21",
+          "timestamp": 1779383263,
+          "track": "A Rain Discretion",
+          "artist": "Sugar Plant",
+          "album": "dry fruit",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779383263
+        },
+        {
+          "id": 11094,
+          "date": "2026-05-21",
+          "timestamp": 1779383588,
+          "track": "Deus",
+          "artist": "The Sugarcubes",
+          "album": "Life's Too Good",
+          "mbid": "08672ffb-d2cf-473d-a3c7-b01bcb7c511a",
+          "is_new_track": 1,
+          "is_new_artist": 1,
+          "is_new_album": 1,
+          "play_count": 1,
+          "last_ts": 1779383588
+        },
+        {
+          "id": 11095,
+          "date": "2026-05-21",
+          "timestamp": 1779383834,
+          "track": "rainy poppy field - Remastered",
+          "artist": "800 Cherries",
+          "album": "Romantico",
+          "mbid": null,
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779383834
+        },
+        {
+          "id": 11096,
+          "date": "2026-05-21",
+          "timestamp": 1779384542,
+          "track": "Choke",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "2e4eb6fa-cd6b-4d1c-b01a-cee9472ac732",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779384542
+        },
+        {
+          "id": 11097,
+          "date": "2026-05-21",
+          "timestamp": 1779384748,
+          "track": "Great Divide",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "137eb5f8-de0c-4228-9236-094441938929",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779384748
+        },
+        {
+          "id": 11098,
+          "date": "2026-05-21",
+          "timestamp": 1779384945,
+          "track": "Iron Man",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "5f0c7161-8c81-49bf-bfaf-76783d892d15",
+          "is_new_track": 1,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779384945
+        }
+      ],
+      "blocks": [
+        {
+          "id": 214,
+          "date": "2026-05-21",
+          "label": "clean + pack",
+          "color_key": "blue",
+          "start_ts": 1779372065,
+          "end_ts": 1779382857
+        },
+        {
+          "id": 215,
+          "date": "2026-05-21",
+          "label": "commute to union st",
+          "color_key": "purple",
+          "start_ts": 1779383084,
+          "end_ts": 1779384945
+        }
+      ],
+      "notes": "absolutely conked out without meaning to on my beanbag at ~6pm last night; woke up at 2 very disoriented + my eyes dry and bloodshot from sleeping with my contacts in...got myself out of bed by revisiting an old playlist that is very dear to me (\"i've stubbed my toe once again\", made by yours truly the fall of 2024). i've forgotten just how much i adore the cardigans. had to clean, shower, get ready, and pack in a hurry to get to union station to meet my friend. i remember putting my airpods in the second i spotted them but didn't realize that i didn't listen to any music afterwards. i love 1:1 time with friends + value being fully present so i guess it's unsurprising. we were in conversation all day; highlights include playing ispy on the train, trying speciality coffee ('lana del fog' was lifechanging for my friend), and finally checking out the milwaukee art museum."
+    },
+    "2026-05-22": {
+      "date": "2026-05-22",
+      "synced": true,
+      "stats": {
+        "total_scrobbles": 22,
+        "unique_tracks": 12,
+        "unique_artists": 4,
+        "unique_albums": 6,
+        "top_track": "Sienna",
+        "top_track_artist": "The Marías",
+        "top_track_count": 10,
+        "top_album": "Submarine",
+        "top_album_artist": "The Marías",
+        "peak_hour": 19,
+        "peak_hour_label": "7pm",
+        "new_artists": [],
+        "new_tracks": [],
+        "new_albums": []
+      },
+      "scrobbles": [
+        {
+          "id": 11099,
+          "date": "2026-05-22",
+          "timestamp": 1779495873,
+          "track": "Choke",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "2e4eb6fa-cd6b-4d1c-b01a-cee9472ac732",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779495873
+        },
+        {
+          "id": 11100,
+          "date": "2026-05-22",
+          "timestamp": 1779495874,
+          "track": "Step On Me",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "1f2c4450-9731-4f08-8ab0-920fede6c56f",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779495874
+        },
+        {
+          "id": 11101,
+          "date": "2026-05-22",
+          "timestamp": 1779496080,
+          "track": "Lovefool",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779496080
+        },
+        {
+          "id": 11102,
+          "date": "2026-05-22",
+          "timestamp": 1779496274,
+          "track": "Step On Me",
+          "artist": "The Cardigans",
+          "album": "First Band On The Moon (Remastered)",
+          "mbid": "1f2c4450-9731-4f08-8ab0-920fede6c56f",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779496274
+        },
+        {
+          "id": 11103,
+          "date": "2026-05-22",
+          "timestamp": 1779496556,
+          "track": "Cloudy Sky",
+          "artist": "The Cardigans",
+          "album": "Emmerdale (Remastered)",
+          "mbid": "22adc707-cfa0-3549-a2c9-e6b5c2068139",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779496556
+        },
+        {
+          "id": 11104,
+          "date": "2026-05-22",
+          "timestamp": 1779496767,
+          "track": "Histoire d'un soir (Bye bye les galères) - Blutch Radio Edit",
+          "artist": "Bibi Flash",
+          "album": "Histoire d'un soir (Bye bye les galères) [Blutch Edit]",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779496767
+        },
+        {
+          "id": 11105,
+          "date": "2026-05-22",
+          "timestamp": 1779496886,
+          "track": "Asleep Among Endives",
+          "artist": "Ichiko Aoba",
+          "album": "Asleep Among Endives",
+          "mbid": null,
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779496886
+        },
+        {
+          "id": 11106,
+          "date": "2026-05-22",
+          "timestamp": 1779497191,
+          "track": "Parfum d'étoiles",
+          "artist": "Ichiko Aoba",
+          "album": "Windswept Adan",
+          "mbid": "44d560bf-2026-43dd-b09d-7960b81253a3",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779497191
+        },
+        {
+          "id": 11107,
+          "date": "2026-05-22",
+          "timestamp": 1779497364,
+          "track": "Pilgrimage",
+          "artist": "Ichiko Aoba",
+          "album": "Windswept Adan",
+          "mbid": "63b1fcaf-eab0-4b18-8b01-f5b4d56d7271",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779497364
+        },
+        {
+          "id": 11108,
+          "date": "2026-05-22",
+          "timestamp": 1779497793,
+          "track": "chinuhaji",
+          "artist": "Ichiko Aoba",
+          "album": "Windswept Adan",
+          "mbid": "1e8e5d44-c4ba-44e8-9c11-6a06836a286a",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779497793
+        },
+        {
+          "id": 11109,
+          "date": "2026-05-22",
+          "timestamp": 1779497811,
+          "track": "Easter Lily",
+          "artist": "Ichiko Aoba",
+          "album": "Windswept Adan",
+          "mbid": "fe68b05e-4c12-469f-ad71-28221d2205b7",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779497811
+        },
+        {
+          "id": 11110,
+          "date": "2026-05-22",
+          "timestamp": 1779497904,
+          "track": "ohayashi",
+          "artist": "Ichiko Aoba",
+          "album": "Windswept Adan",
+          "mbid": "a5201cb7-7aa2-4dd8-9027-66f40059b7e7",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779497904
+        },
+        {
+          "id": 11111,
+          "date": "2026-05-22",
+          "timestamp": 1779499289,
+          "track": "Sienna",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 10,
+          "last_ts": 1779501541
+        }
+      ],
+      "blocks": [
+        {
+          "id": 218,
+          "date": "2026-05-22",
+          "label": "train back 2 chi",
+          "color_key": "purple",
+          "start_ts": 1779495873,
+          "end_ts": 1779497904
+        },
+        {
+          "id": 219,
+          "date": "2026-05-22",
+          "label": "walk home from union",
+          "color_key": "blue",
+          "start_ts": 1779499289,
+          "end_ts": 1779499289
+        }
+      ],
+      "notes": "spent the entire day exploring milwaukee while conversing with my friend; didn't listen to music until we were on the train back to chi and until my friend fell asleep. we jammed out to songs from the 70s at the cafe we went to for breakfast and later serenaded with polka music (a very pleasant surprise) at a brewery. i'd made a mental note to myself last night about remembering to play and enjoy music as i was getting ready, packing, etc. but (clearly) forgot...just an effect of good conversation."
+    },
+    "2026-05-23": {
+      "date": "2026-05-23",
+      "synced": true,
+      "stats": {
+        "total_scrobbles": 1,
+        "unique_tracks": 1,
+        "unique_artists": 1,
+        "unique_albums": 1,
+        "top_track": "Sienna",
+        "top_track_artist": "The Marías",
+        "top_track_count": 1,
+        "top_album": "Submarine",
+        "top_album_artist": "The Marías",
+        "peak_hour": 17,
+        "peak_hour_label": "5pm",
+        "new_artists": [],
+        "new_tracks": [],
+        "new_albums": []
+      },
+      "scrobbles": [
+        {
+          "id": 11121,
+          "date": "2026-05-23",
+          "timestamp": 1779577121,
+          "track": "Sienna",
+          "artist": "The Marías",
+          "album": "Submarine",
+          "mbid": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+          "is_new_track": 0,
+          "is_new_artist": 0,
+          "is_new_album": 0,
+          "play_count": 1,
+          "last_ts": 1779577121
+        }
+      ],
+      "blocks": [
+        {
+          "id": 207,
+          "date": "2026-05-23",
+          "label": "must've accidentally pressed play @ the zoo (?)",
+          "color_key": "#000000",
+          "start_ts": 1779577121,
+          "end_ts": 1779577121
+        }
+      ],
+      "notes": "slept in + spent the entire day at the zoo with my friend; was (once again) in conversation all day. would've been listening to music if i'd gone alone, kinda crazy that i didn't listen to anything as i was both getting ready and unready (but again i wasn't alone...). i guess i'm never alone even when i'm alone because i'm always in the good company of music"
+    }
+  }
+}
