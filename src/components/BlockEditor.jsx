@@ -80,7 +80,7 @@ function TrackRow({ s, state, onClick, onMouseEnter }) {
 
 const PREVIEW_COUNT = 3
 
-function BlockCard({ block, tracks, getRowState, onTrackClick, onTrackHover, onEdit, onRemove }) {
+function BlockCard({ block, tracks, getRowState, onTrackClick, onTrackHover, onEdit, onRemove, readOnly }) {
   const [expanded, setExpanded] = useState(false)
   const hex = resolveColor(block.color_key)
   const hasMore = tracks.length > PREVIEW_COUNT
@@ -97,12 +97,16 @@ function BlockCard({ block, tracks, getRowState, onTrackClick, onTrackHover, onE
         </div>
         <div className="block-card__right">
           <span className="block-card__count">{tracks.length} track{tracks.length !== 1 ? 's' : ''}</span>
-          <button className="block-edit" onClick={onEdit} title="edit block">
-            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-            </svg>
-          </button>
-          <button className="legend-remove" onClick={onRemove} title="remove block">×</button>
+          {!readOnly && (
+            <>
+              <button className="block-edit" onClick={onEdit} title="edit block">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+              </button>
+              <button className="legend-remove" onClick={onRemove} title="remove block">×</button>
+            </>
+          )}
         </div>
       </div>
       <div className="block-card__tracks">
@@ -128,7 +132,7 @@ function BlockCard({ block, tracks, getRowState, onTrackClick, onTrackHover, onE
   )
 }
 
-export default function BlockEditor({ scrobbles, blocks, onSave }) {
+export default function BlockEditor({ scrobbles, blocks, onSave, readOnly }) {
   const [selecting, setSelecting]   = useState(false)
   const [firstTs, setFirstTs]       = useState(null)
   const [secondTs, setSecondTs]     = useState(null)
@@ -221,10 +225,10 @@ export default function BlockEditor({ scrobbles, blocks, onSave }) {
     <div className="block-editor">
       <div className="section-header">
         <div className="section-title">timeline</div>
-        {selecting
+        {!readOnly && (selecting
           ? <button className="btn-ghost btn-sm btn-active" onClick={cancelSelecting}>✕ cancel</button>
           : <button className="btn-ghost btn-sm" onClick={startSelecting}>+ label a block</button>
-        }
+        )}
       </div>
 
       {selecting && <div className="select-hint">{hint}</div>}
@@ -242,6 +246,7 @@ export default function BlockEditor({ scrobbles, blocks, onSave }) {
                 onTrackHover={handleTrackHover}
                 onEdit={() => startEditBlock(seg.block)}
                 onRemove={() => removeBlock(seg.block)}
+                readOnly={readOnly}
               />
             )
           }

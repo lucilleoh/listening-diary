@@ -107,7 +107,7 @@ function buildExportText(date, stats, scrobbles, blocks, notes) {
   return lines.join('\n')
 }
 
-export default function DayReport({ data, date, syncing, onSync, onSaveBlocks, onSaveNotes }) {
+export default function DayReport({ data, date, syncing, onSync, onSaveBlocks, onSaveNotes, readOnly }) {
   const [blocks, setBlocks] = useState([])
   const [notes, setNotes] = useState('')
   const [notesSaved, setNotesSaved] = useState(false)
@@ -151,9 +151,11 @@ export default function DayReport({ data, date, syncing, onSync, onSaveBlocks, o
       <div className="day-report day-report--unsynced">
         <h2>{formatFullDate(date)}</h2>
         <p>no data yet for this day.</p>
-        <button className="btn-primary" onClick={onSync} disabled={syncing}>
-          {syncing ? 'syncing…' : '↻ sync from last.fm'}
-        </button>
+        {!readOnly && (
+          <button className="btn-primary" onClick={onSync} disabled={syncing}>
+            {syncing ? 'syncing…' : '↻ sync from last.fm'}
+          </button>
+        )}
       </div>
     )
   }
@@ -176,9 +178,11 @@ export default function DayReport({ data, date, syncing, onSync, onSaveBlocks, o
           <button className="btn-ghost" onClick={() => setShowExport(!showExport)}>
             {showExport ? '✕ close export' : '↗ export'}
           </button>
-          <button className="btn-ghost" onClick={onSync} disabled={syncing}>
-            {syncing ? 'syncing…' : '↻ re-sync'}
-          </button>
+          {!readOnly && (
+            <button className="btn-ghost" onClick={onSync} disabled={syncing}>
+              {syncing ? 'syncing…' : '↻ re-sync'}
+            </button>
+          )}
         </div>
       </div>
 
@@ -228,13 +232,14 @@ export default function DayReport({ data, date, syncing, onSync, onSaveBlocks, o
         scrobbles={scrobblesWithBlocks}
         blocks={blocks}
         onSave={handleSaveBlocks}
+        readOnly={readOnly}
       />
 
       {/* ── Notes ── */}
       <NotesEditor
         value={notes}
-        saved={notesSaved}
         onSave={handleSaveNotes}
+        readOnly={readOnly}
       />
     </div>
   )

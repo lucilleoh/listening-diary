@@ -8,7 +8,7 @@ const PROMPTS = [
   'anything you want to revisit or explore more?',
 ]
 
-export default function NotesEditor({ value, onSave }) {
+export default function NotesEditor({ value, onSave, readOnly }) {
   const [text, setText] = useState(value ?? '')
   const [status, setStatus] = useState('saved') // 'saved' | 'unsaved' | 'saving'
   const timerRef = useRef(null)
@@ -41,6 +41,20 @@ export default function NotesEditor({ value, onSave }) {
 
   function handleBlur() {
     if (status === 'unsaved') doSave(text)
+  }
+
+  // ── Read-only view (deployed site): show the reflection as static text ──
+  if (readOnly) {
+    return (
+      <div className="notes-editor">
+        <div className="section-header">
+          <div className="section-title">notes &amp; reflection</div>
+        </div>
+        <div className="notes-display">
+          {value?.trim() ? value : '(no reflection written for this day)'}
+        </div>
+      </div>
+    )
   }
 
   const statusLabel = { saved: 'saved ✓', unsaved: 'unsaved', saving: 'saving…' }[status]

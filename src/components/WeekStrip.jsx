@@ -48,7 +48,7 @@ const EMOJI_OPTIONS = [
   '🌊', '🌴', '🌿', '🦋', '🐚', '🍓', '🌻', '☕',
 ]
 
-export default function WeekStrip({ days, selectedDate, syncing, loading, onSelectDay, onSyncDay, onUpdateEmoji }) {
+export default function WeekStrip({ days, selectedDate, syncing, loading, onSelectDay, onSyncDay, onUpdateEmoji, readOnly }) {
   const [pickerOpenFor, setPickerOpenFor] = useState(null)
 
   // Close picker on any click outside the picker (picker stops propagation itself)
@@ -106,16 +106,20 @@ export default function WeekStrip({ days, selectedDate, syncing, loading, onSele
 
             {day.synced ? (
               <>
-                <div
-                  className="day-card__sticker day-card__sticker--clickable"
-                  title="change emoji"
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    setPickerOpenFor(prev => prev === day.date ? null : day.date)
-                  }}
-                >
-                  {displaySticker}
-                </div>
+                {readOnly ? (
+                  <div className="day-card__sticker">{displaySticker}</div>
+                ) : (
+                  <div
+                    className="day-card__sticker day-card__sticker--clickable"
+                    title="change emoji"
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      setPickerOpenFor(prev => prev === day.date ? null : day.date)
+                    }}
+                  >
+                    {displaySticker}
+                  </div>
+                )}
                 <div className="day-card__top-track" title={`${day.top_track} — ${day.top_track_artist}`}>
                   {day.top_track}
                 </div>
@@ -126,7 +130,7 @@ export default function WeekStrip({ days, selectedDate, syncing, loading, onSele
                   )}
                 </div>
 
-                {pickerOpenFor === day.date && (
+                {!readOnly && pickerOpenFor === day.date && (
                   <div className="emoji-picker" onClick={e => e.stopPropagation()}>
                     <div className="emoji-picker__grid">
                       {EMOJI_OPTIONS.map(emoji => (
@@ -150,17 +154,21 @@ export default function WeekStrip({ days, selectedDate, syncing, loading, onSele
               </>
             ) : (
               <div className="day-card__empty">
-                <button
-                  className="sync-btn-small"
-                  disabled={isSyncing}
-                  onClick={(e) => { e.stopPropagation(); onSyncDay(day.date) }}
-                >
-                  {isSyncing ? '…' : '↻ sync'}
-                </button>
+                {readOnly ? (
+                  <span style={{ fontSize: 10, color: 'var(--text-3)' }}>no data</span>
+                ) : (
+                  <button
+                    className="sync-btn-small"
+                    disabled={isSyncing}
+                    onClick={(e) => { e.stopPropagation(); onSyncDay(day.date) }}
+                  >
+                    {isSyncing ? '…' : '↻ sync'}
+                  </button>
+                )}
               </div>
             )}
 
-            {day.synced && (
+            {day.synced && !readOnly && (
               <button
                 className="resync-btn"
                 title="re-sync from last.fm"
